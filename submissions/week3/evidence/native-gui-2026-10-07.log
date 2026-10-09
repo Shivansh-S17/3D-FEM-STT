@@ -1,0 +1,14 @@
+********* Start testing of femgui::IntegrationTests *********
+Config: Using QtTest library 6.11.2, Qt 6.11.2 (x86_64-little_endian-llp64 shared (dynamic) release build; by MSVC 2022), windows 11
+PASS   : femgui::IntegrationTests::initTestCase()
+QWARN  : femgui::IntegrationTests::nativeGuidedC3D8Workspace() QFont::setPointSize: Point size <= 0 (-1), must be greater than 0
+QWARN  : femgui::IntegrationTests::nativeGuidedC3D8Workspace() QMainWindow::saveState(): 'objectName' not set for QToolBar 0x2660fd711c0 'Main'
+PASS   : femgui::IntegrationTests::nativeGuidedC3D8Workspace()
+QWARN  : femgui::IntegrationTests::captureWeek3SolidResults() QMainWindow::saveState(): 'objectName' not set for QToolBar 0x2660fb11e00 'Main'
+PASS   : femgui::IntegrationTests::captureWeek3SolidResults()
+QWARN  : femgui::IntegrationTests::nativeRenderingAndPicking() QMainWindow::saveState(): 'objectName' not set for QToolBar 0x26610020b70 'Main'
+PASS   : femgui::IntegrationTests::nativeRenderingAndPicking()
+PASS   : femgui::IntegrationTests::nativeRectangleDrawing()
+PASS   : femgui::IntegrationTests::cleanupTestCase()
+Totals: 6 passed, 0 failed, 0 skipped, 0 blacklisted, 9245ms
+********* Finished testing of femgui::IntegrationTests *********

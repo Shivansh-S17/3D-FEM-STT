@@ -1,0 +1,109 @@
+{
+  "case": "supplied_21x21x5",
+  "direct": {
+    "exitCode": 0,
+    "wallSeconds": 12.241332000005059,
+    "peakWorkingSetBytes": 193822720
+  },
+  "capture": {
+    "exitCode": 0,
+    "wallSeconds": 19.786246399977244,
+    "peakWorkingSetBytes": 192970752
+  },
+  "inputSha256": "6b3ef423fe9c30d9b490e1485afc19aef72eb610886dc5c9bc0013c5d97f6841",
+  "csvSha256": "ff5858ada70de47d48b576828c19e0e184169706029bfaba8dcec9936d82d95c",
+  "arraysSha256": "6b61c72f6e3343d39206c985e13e5c40ba85837d5cc29d175d0d86989c42b355",
+  "summary": {
+    "nodes": 2205,
+    "elements": 1600,
+    "dofs": 6615,
+    "stiffnessNonzeros": 293463,
+    "checks": {
+      "scaledResidualXYZ": [
+        6.11367086152438e-16,
+        3.0818914588832013e-16,
+        4.985663010562759e-16
+      ],
+      "symmetryRelative": 0.0,
+      "appliedForceXYZ": [
+        0.0,
+        0.0,
+        9800000.0
+      ],
+      "expectedForceXYZ": [
+        0.0,
+        0.0,
+        9800000.0
+      ],
+      "springReactionXYZ": [
+        -2.1577761799562722e-10,
+        -3.2150637707673013e-10,
+        -9799999.999999987
+      ],
+      "forceBalanceRelative": 1.331047361312753e-15,
+      "momentBalanceRelative": 5.347317878751247e-16
+    },
+    "displacementMin": [
+      -0.006985490075109782,
+      -0.006985490075109714,
+      0.01530988210847088
+    ],
+    "displacementMax": [
+      0.006985490075110006,
+      0.006985490075109837,
+      0.02633614999439353
+    ],
+    "stressMin": [
+      -0.33505818485430355,
+      -0.33505818485430733,
+      -0.9610971024286787,
+      -0.011440691200422314,
+      -0.1306860301045065,
+      -0.13068603010450147
+    ],
+    "stressMax": [
+      0.011927322087117297,
+      0.011927322087119663,
+      -0.7670167912431153,
+      0.011440691200422862,
+      0.13068603010450675,
+      0.13068603010450686
+    ]
+  },
+  "sourceHashes": {
+    "C3D8-slab.py": "2028c5283bfe0d7a005a94a96afd4ca6b5f4fd485f65cf221455d4e89f7fa8a6",
+    "C3D8local.py": "60dfae13f9653ecf95c2763adb4ee707b45f08f29ac0cc38da3936da86fa40e4",
+    "gf-val.py": "09cf29de4c8d70888b7ca9cc346e22c3b0e0c182e63a76a4de2182ebe50e723d"
+  },
+  "python": "3.12.2",
+  "dependencies": {
+    "certifi": "2026.7.22",
+    "charset-normalizer": "3.5.1",
+    "contourpy": "1.3.3",
+    "cycler": "0.12.1",
+    "fonttools": "4.65.0",
+    "idna": "3.19",
+    "kiwisolver": "1.5.1",
+    "matplotlib": "3.8.3",
+    "numpy": "1.26.3",
+    "packaging": "26.3",
+    "pandas": "2.2.3",
+    "pillow": "12.3.0",
+    "pip": "24.0",
+    "platformdirs": "4.11.8",
+    "pooch": "1.9.0",
+    "psutil": "5.9.8",
+    "pyparsing": "3.3.2",
+    "python-dateutil": "2.9.0.post0",
+    "pytz": "2026.3.post1",
+    "pyvista": "0.44.1",
+    "requests": "2.34.2",
+    "scipy": "1.13.0",
+    "scooby": "0.12.0",
+    "six": "1.17.0",
+    "typing_extensions": "4.16.0",
+    "tzdata": "2026.4",
+    "urllib3": "2.7.0",
+    "vtk": "9.3.1"
+  }
+}

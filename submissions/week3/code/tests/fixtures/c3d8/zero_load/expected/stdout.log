@@ -1,0 +1,20 @@
+**** Reading mesh info
+**** Reading slab properties
+Success!
+**** Reading subgrade properties
+Success!
+**** Reading loads
+Success!
+**** Reading options
+Success!
+**** Assembling Global Stiffness Matrix (Kg)
+Success!
+**** Assembling Global Force Vector (Fg)
+Success!
+**** Solving the system
+Success!
+**** Post-processing: Calculating Nodal Stresses and Strains
+Success!
+**** Writing to file
+Data printed to output-c3d8.csv
+Success!

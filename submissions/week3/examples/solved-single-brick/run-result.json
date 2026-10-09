@@ -1,0 +1,84 @@
+{
+  "contractVersion": 1,
+  "status": "Completed",
+  "result": "results.vtk",
+  "inputSha256": "8f5deac138a979535a6c022ad82e55c3e6cb7a6dab99a9225fc7824446e0440f",
+  "resultSha256": "07804f9c9898d307191c1779dd445d25844177d0af8306bef149a698704427cf",
+  "unitSystem": "mm-N-MPa",
+  "backendId": "c3d8-python-v1",
+  "modelKind": "structured_solid_c3d8",
+  "summary": {
+    "nodes": 8,
+    "elements": 1,
+    "dofs": 24,
+    "maxAbsDisplacement": 0.018053491925789988,
+    "fields": [
+      "u",
+      "v",
+      "w",
+      "sxx",
+      "syy",
+      "szz",
+      "sxy",
+      "syz",
+      "szx",
+      "exx",
+      "eyy",
+      "ezz",
+      "exy",
+      "eyz",
+      "ezx"
+    ],
+    "stiffnessNonzeros": 576,
+    "storedSystemBytes": 7396,
+    "cachedKernels": {
+      "solid": 1,
+      "foundation": 1,
+      "loads": 1
+    },
+    "checks": {
+      "scaledResidual": 1.0416964531823749e-16,
+      "symmetryRelative": 0.0,
+      "appliedForceXYZ": [
+        0.0,
+        0.0,
+        38080.0
+      ],
+      "springReactionXYZ": [
+        -1.8474111129762605e-12,
+        5.4001247917767614e-12,
+        -38079.999999999985
+      ],
+      "forceBalanceRelative": 4.104815963958169e-16,
+      "momentBalanceRelative": 3.5331471594609386e-16
+    },
+    "timingsSeconds": {
+      "solidAssembly": 0.008835999993607402,
+      "foundationAssembly": 0.006874799990328029,
+      "loadAssembly": 0.00010120001388713717,
+      "solve": 0.0004057000041939318,
+      "recovery": 0.0011998999980278313,
+      "export": 0.0015425999881699681,
+      "total": 0.019008400005986914
+    },
+    "numericalAcceptance": {
+      "status": "passed",
+      "limits": {
+        "scaledResidual": 1e-10,
+        "symmetryRelative": 1e-12,
+        "forceBalanceRelative": 1e-09,
+        "momentBalanceRelative": 1e-09
+      }
+    }
+  },
+  "runtime": {
+    "python": "3.12.2",
+    "numpy": "1.26.3",
+    "scipy": "1.13.0"
+  },
+  "sources": {
+    "c3d8_solver.py": "5bcb7954794f6521e530aa03db649ed2d122af63002feced629606e9f4ff2933",
+    "c3d8_analysis.py": "1da8017e7a67667e5954edab6df9107eb7c1daa152eac81362a426902c52af88",
+    "C3D8local.py": "60dfae13f9653ecf95c2763adb4ee707b45f08f29ac0cc38da3936da86fa40e4"
+  }
+}

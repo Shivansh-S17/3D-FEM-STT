@@ -1,0 +1,11 @@
+{"contractVersion": 1, "type": "phase", "phase": "validation", "progressKnown": false}
+{"contractVersion": 1, "type": "phase", "phase": "solid-assembly", "completed": 0, "total": 1}
+{"contractVersion": 1, "type": "phase", "phase": "solid-assembly", "completed": 1, "total": 1}
+{"contractVersion": 1, "type": "phase", "phase": "foundation-assembly", "completed": 0, "total": 1}
+{"contractVersion": 1, "type": "phase", "phase": "foundation-assembly", "completed": 1, "total": 1}
+{"contractVersion": 1, "type": "phase", "phase": "load-assembly", "completed": 0, "total": 1}
+{"contractVersion": 1, "type": "phase", "phase": "load-assembly", "completed": 1, "total": 1}
+{"contractVersion": 1, "type": "phase", "phase": "solve", "progressKnown": false}
+{"contractVersion": 1, "type": "phase", "phase": "recovery", "completed": 0, "total": 1}
+{"contractVersion": 1, "type": "phase", "phase": "recovery", "completed": 1, "total": 1}
+{"contractVersion": 1, "type": "completed", "manifest": "run-result.json"}

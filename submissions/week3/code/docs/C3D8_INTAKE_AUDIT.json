@@ -1,0 +1,532 @@
+{
+  "scope": "Source review and bounded local probes, not full driver or GetFEM validation",
+  "files": {
+    "C3D8v/python/C3D8-slab.py": {
+      "bytes": 23435,
+      "sha256": "2028c5283bfe0d7a005a94a96afd4ca6b5f4fd485f65cf221455d4e89f7fa8a6"
+    },
+    "C3D8v/python/C3D8local.py": {
+      "bytes": 171374,
+      "sha256": "60dfae13f9653ecf95c2763adb4ee707b45f08f29ac0cc38da3936da86fa40e4"
+    },
+    "C3D8v/python/gf-val.py": {
+      "bytes": 3418,
+      "sha256": "09cf29de4c8d70888b7ca9cc346e22c3b0e0c182e63a76a4de2182ebe50e723d"
+    },
+    "C3D8v/python/inputs.json": {
+      "bytes": 787,
+      "sha256": "9e10429873028fb8420a8b405c8d15705ba49328bca7f2e1f38e13a3b5531bf7"
+    },
+    "C3D8v/python/WxMaxima/Bb.txt": {
+      "bytes": 3042,
+      "sha256": "be017add392c28ea521bc6b44b4b5a8691fb7c49f9f98ed2176d235e2144ea3f"
+    },
+    "C3D8v/python/WxMaxima/convert_fortran_to_python.sh": {
+      "bytes": 759,
+      "sha256": "4aa863bf6ea98dab9ac814034536bec1786987a710ef9b94825c04b398fda46a"
+    },
+    "C3D8v/python/WxMaxima/DD.txt": {
+      "bytes": 732,
+      "sha256": "d8714181baefe6158bd44a82bc10df631f7fb03edfec032581ab7ec065411511"
+    },
+    "C3D8v/python/WxMaxima/FF1.txt": {
+      "bytes": 655,
+      "sha256": "9b9f8ce24e1cb46d15fd299d5071cebaaeca48afe8dadf28142e6ea2de41be45"
+    },
+    "C3D8v/python/WxMaxima/force.wxmx": {
+      "bytes": 15339,
+      "sha256": "cb6c9a8d2d3c3f1545c8a844597a9f8c970ae44c80508861e42f2c8cba796573"
+    },
+    "C3D8v/python/WxMaxima/K_Kred.wxmx": {
+      "bytes": 46284,
+      "sha256": "97e2bd5dc8e9e9dd63b846dc755f5c6658dff492f28f7d4bee9a08a806545e6a"
+    },
+    "C3D8v/python/WxMaxima/KK_full.txt": {
+      "bytes": 75288,
+      "sha256": "62591422ff4c103a07d7fc0bc6d55a0af01a89d23cf25b20ba0664ad31804ae6"
+    },
+    "C3D8v/python/WxMaxima/KK_red.txt": {
+      "bytes": 64272,
+      "sha256": "efecbf14656dea382d4c15ee965506cc5dd75fe2a7f83a490cb2375fd5f7baac"
+    },
+    "C3D8v/python/WxMaxima/Ks_full.txt": {
+      "bytes": 11172,
+      "sha256": "3f13a47805168737623e07f0562cc73f39a40a4b86d14fa9a815bf8670383921"
+    },
+    "C3D8v/python/WxMaxima/Ks_Ksred.wxmx": {
+      "bytes": 52123,
+      "sha256": "a7f63212a650dee6f2b327107ea5433d3ff04111c71cfae6e3661c951beba1d5"
+    },
+    "C3D8v/python/WxMaxima/Ks_red.txt": {
+      "bytes": 10608,
+      "sha256": "09845a9d2826b77654bd36ce4fc316c5d299ed1c2c402c43c92c334240f38dcf"
+    }
+  },
+  "elements": [
+    {
+      "size": [
+        175.0,
+        175.0,
+        50.0
+      ],
+      "full": {
+        "rank": 18,
+        "size": 24,
+        "negative": 0,
+        "symmetryRelative": 0.0
+      },
+      "reduced": {
+        "rank": 6,
+        "size": 24,
+        "negative": 0,
+        "symmetryRelative": 0.0
+      },
+      "foundationFull": {
+        "rank": 12,
+        "size": 24,
+        "negative": 0,
+        "symmetryRelative": 0.0
+      },
+      "foundationReduced": {
+        "rank": 3,
+        "size": 24,
+        "negative": 0,
+        "symmetryRelative": 0.0
+      },
+      "fullWithFoundation": {
+        "rank": 24,
+        "size": 24,
+        "negative": 0,
+        "symmetryRelative": 0.0
+      },
+      "reducedWithFoundation": {
+        "rank": 9,
+        "size": 24,
+        "negative": 0,
+        "symmetryRelative": 0.0
+      },
+      "fullQuadratureRelative": 4.0469727476327196e-16,
+      "reducedQuadratureRelative": 7.0,
+      "eightTimesReducedMatchesMidpointRelative": 1.798654554503431e-16,
+      "fourTimesReducedFoundationMatchesMidpointRelative": 0.0,
+      "verticalForce": 12005.0,
+      "expectedForce": 12004.999999999996,
+      "loadedLocalNodes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "foundationActiveLocalDofs": [
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "affineStrain": [
+        2.0,
+        5.0,
+        11.0,
+        3.0,
+        7.000000000000001,
+        13.0
+      ]
+    },
+    {
+      "size": [
+        170.0,
+        280.0,
+        63.0
+      ],
+      "full": {
+        "rank": 18,
+        "size": 24,
+        "negative": 0,
+        "symmetryRelative": 0.0
+      },
+      "reduced": {
+        "rank": 6,
+        "size": 24,
+        "negative": 0,
+        "symmetryRelative": 0.0
+      },
+      "foundationFull": {
+        "rank": 12,
+        "size": 24,
+        "negative": 0,
+        "symmetryRelative": 0.0
+      },
+      "foundationReduced": {
+        "rank": 3,
+        "size": 24,
+        "negative": 0,
+        "symmetryRelative": 0.0
+      },
+      "fullWithFoundation": {
+        "rank": 24,
+        "size": 24,
+        "negative": 0,
+        "symmetryRelative": 0.0
+      },
+      "reducedWithFoundation": {
+        "rank": 9,
+        "size": 24,
+        "negative": 0,
+        "symmetryRelative": 0.0
+      },
+      "fullQuadratureRelative": 4.888136491128514e-16,
+      "reducedQuadratureRelative": 6.999999999999998,
+      "eightTimesReducedMatchesMidpointRelative": 2.896673476224306e-16,
+      "fourTimesReducedFoundationMatchesMidpointRelative": 0.0,
+      "verticalForce": 18659.199999999997,
+      "expectedForce": 18659.199999999997,
+      "loadedLocalNodes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "foundationActiveLocalDofs": [
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "affineStrain": [
+        2.0,
+        5.0,
+        11.0,
+        3.0,
+        7.0,
+        13.0
+      ]
+    },
+    {
+      "size": [
+        1.0,
+        2.0,
+        3.0
+      ],
+      "full": {
+        "rank": 18,
+        "size": 24,
+        "negative": 0,
+        "symmetryRelative": 0.0
+      },
+      "reduced": {
+        "rank": 6,
+        "size": 24,
+        "negative": 0,
+        "symmetryRelative": 0.0
+      },
+      "foundationFull": {
+        "rank": 12,
+        "size": 24,
+        "negative": 0,
+        "symmetryRelative": 0.0
+      },
+      "foundationReduced": {
+        "rank": 3,
+        "size": 24,
+        "negative": 0,
+        "symmetryRelative": 0.0
+      },
+      "fullWithFoundation": {
+        "rank": 24,
+        "size": 24,
+        "negative": 0,
+        "symmetryRelative": 0.0
+      },
+      "reducedWithFoundation": {
+        "rank": 9,
+        "size": 24,
+        "negative": 0,
+        "symmetryRelative": 0.0
+      },
+      "fullQuadratureRelative": 4.593275400320831e-16,
+      "reducedQuadratureRelative": 7.0,
+      "eightTimesReducedMatchesMidpointRelative": 6.804852444919752e-17,
+      "fourTimesReducedFoundationMatchesMidpointRelative": 0.0,
+      "verticalForce": 0.7840000000000003,
+      "expectedForce": 0.7839999999999999,
+      "loadedLocalNodes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "foundationActiveLocalDofs": [
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "affineStrain": [
+        2.0,
+        5.0,
+        11.0,
+        3.0,
+        7.0,
+        13.0
+      ]
+    }
+  ],
+  "meshes": [
+    {
+      "axes": [
+        2,
+        2,
+        2
+      ],
+      "nodes": 8,
+      "elements": 1,
+      "firstConnectivity": [
+        0,
+        1,
+        5,
+        4,
+        2,
+        3,
+        7,
+        6
+      ],
+      "firstCoordinates": [
+        [
+          0.0,
+          -20.0,
+          0.0
+        ],
+        [
+          340.0,
+          -20.0,
+          0.0
+        ],
+        [
+          0.0,
+          -20.0,
+          126.0
+        ],
+        [
+          340.0,
+          -20.0,
+          126.0
+        ],
+        [
+          0.0,
+          540.0,
+          0.0
+        ]
+      ],
+      "dormantVtkTupleCoordinateMismatches": 8,
+      "bottomElements": [
+        0
+      ],
+      "topElements": [
+        0
+      ],
+      "full": {
+        "rank": 24,
+        "size": 24,
+        "negative": 0,
+        "symmetryRelative": 0.0
+      },
+      "reduced": {
+        "rank": 9,
+        "size": 24,
+        "negative": 0,
+        "symmetryRelative": 0.0
+      }
+    },
+    {
+      "axes": [
+        3,
+        2,
+        3
+      ],
+      "nodes": 18,
+      "elements": 4,
+      "firstConnectivity": [
+        0,
+        1,
+        10,
+        9,
+        3,
+        4,
+        13,
+        12
+      ],
+      "firstCoordinates": [
+        [
+          0.0,
+          -20.0,
+          0.0
+        ],
+        [
+          170.0,
+          -20.0,
+          0.0
+        ],
+        [
+          340.0,
+          -20.0,
+          0.0
+        ],
+        [
+          0.0,
+          -20.0,
+          63.0
+        ],
+        [
+          170.0,
+          -20.0,
+          63.0
+        ]
+      ],
+      "dormantVtkTupleCoordinateMismatches": 18,
+      "bottomElements": [
+        2,
+        3
+      ],
+      "topElements": [
+        0,
+        1
+      ],
+      "full": {
+        "rank": 54,
+        "size": 54,
+        "negative": 0,
+        "symmetryRelative": 0.0
+      },
+      "reduced": {
+        "rank": 30,
+        "size": 54,
+        "negative": 0,
+        "symmetryRelative": 0.0
+      }
+    },
+    {
+      "axes": [
+        3,
+        3,
+        3
+      ],
+      "nodes": 27,
+      "elements": 8,
+      "firstConnectivity": [
+        0,
+        1,
+        10,
+        9,
+        3,
+        4,
+        13,
+        12
+      ],
+      "firstCoordinates": [
+        [
+          0.0,
+          -20.0,
+          0.0
+        ],
+        [
+          170.0,
+          -20.0,
+          0.0
+        ],
+        [
+          340.0,
+          -20.0,
+          0.0
+        ],
+        [
+          0.0,
+          -20.0,
+          63.0
+        ],
+        [
+          170.0,
+          -20.0,
+          63.0
+        ]
+      ],
+      "dormantVtkTupleCoordinateMismatches": 27,
+      "bottomElements": [
+        2,
+        3,
+        6,
+        7
+      ],
+      "topElements": [
+        0,
+        1,
+        4,
+        5
+      ],
+      "full": {
+        "rank": 81,
+        "size": 81,
+        "negative": 0,
+        "symmetryRelative": 0.0
+      },
+      "reduced": {
+        "rank": 58,
+        "size": 81,
+        "negative": 0,
+        "symmetryRelative": 0.0
+      }
+    }
+  ],
+  "runtime": {
+    "python": "3.12.2",
+    "numpy": "1.26.3"
+  },
+  "rankRelativeThreshold": 1e-10,
+  "dependenciesAvailable": {
+    "numpy": true,
+    "scipy": true,
+    "pyvista": false,
+    "vtk": false,
+    "pandas": true,
+    "getfem": false
+  },
+  "suppliedInput": {
+    "axes": [
+      21,
+      21,
+      5
+    ],
+    "nodes": 2205,
+    "elements": 1600,
+    "dofs": 6615,
+    "totalForce": 9800000.0
+  },
+  "originalCliAttempt": {
+    "exitCode": 1,
+    "stdout": "",
+    "stderr": "Traceback (most recent call last):\n  File \"D:\\Files\\STTCSEProject\\C3D8v\\python\\C3D8-slab.py\", line 8, in <module>\n    import pyvista as pv\nModuleNotFoundError: No module named 'pyvista'\n"
+  }
+}

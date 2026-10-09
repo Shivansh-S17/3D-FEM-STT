@@ -1,0 +1,13 @@
+Test project D:/Softwares/OneDrive - MSFT/College/Sem7/Software Tools and Techniques for CSE/Project/submissions/week2/code/build/release
+    Start 1: Integration
+1/4 Test #1: Integration ......................   Passed    8.26 sec
+    Start 2: SolverContract
+2/4 Test #2: SolverContract ...................   Passed    6.89 sec
+    Start 3: NumericalQualification
+3/4 Test #3: NumericalQualification ...........   Passed    2.48 sec
+    Start 4: C3D8Reference
+4/4 Test #4: C3D8Reference ....................   Passed    0.49 sec
+
+100% tests passed, 0 tests failed out of 4
+
+Total Test time (real) =  18.14 sec

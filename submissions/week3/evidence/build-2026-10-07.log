@@ -1,0 +1,36 @@
+[1/2] Cleaning additional files...
+[2/2] Cleaning all built files...
+Cleaning... 30 files.
+[1/33] Automatic MOC and UIC for target FemGuiLib
+[2/33] Building CXX object CMakeFiles\FemGuiLib.dir\src\ui\UiStyle.cpp.obj
+[3/33] Building CXX object CMakeFiles\FemGuiLib.dir\src\solver\PlateSolverAdapter.cpp.obj
+[4/33] Building CXX object CMakeFiles\FemGuiLib.dir\src\solver\C3D8SolverAdapter.cpp.obj
+[5/33] Building CXX object CMakeFiles\FemGuiLib.dir\src\ui\PressurePatchDialog.cpp.obj
+[6/33] Building CXX object CMakeFiles\FemGuiLib.dir\src\core\ResultSet.cpp.obj
+[7/33] Building CXX object CMakeFiles\FemGuiLib.dir\src\ui\GeometryEditorDialog.cpp.obj
+[8/33] Building CXX object CMakeFiles\FemGuiLib.dir\src\ui\ProblemsPanel.cpp.obj
+[9/33] Building CXX object CMakeFiles\FemGuiLib.dir\src\core\ProjectDocument.cpp.obj
+[10/33] Building CXX object CMakeFiles\FemGuiLib.dir\src\io\ResultExporter.cpp.obj
+[11/33] Building CXX object CMakeFiles\FemGuiLib.dir\src\solver\SolverAdapterRegistry.cpp.obj
+[12/33] Building CXX object CMakeFiles\FemGuiLib.dir\src\io\ResultImporter.cpp.obj
+[13/33] Building CXX object CMakeFiles\FemGuiLib.dir\src\controllers\ProjectController.cpp.obj
+[14/33] Building CXX object CMakeFiles\FemGuiLib.dir\src\ui\InspectorPanel.cpp.obj
+[15/33] Building CXX object CMakeFiles\FemGuiLib.dir\src\visualization\PlateMeshBuilder.cpp.obj
+[16/33] Building CXX object CMakeFiles\FemGuiLib.dir\src\io\ProjectSerializer.cpp.obj
+[17/33] Building CXX object CMakeFiles\FemGuiLib.dir\src\visualization\C3D8MeshBuilder.cpp.obj
+[18/33] Building CXX object CMakeFiles\FemGuiLib.dir\src\controllers\AnalysisController.cpp.obj
+[19/33] Building CXX object CMakeFiles\FemGuiLib.dir\FemGuiLib_autogen\mocs_compilation.cpp.obj
+[20/33] Building CXX object CMakeFiles\FemGuiLib.dir\src\solver\SolverJob.cpp.obj
+[21/33] Building CXX object CMakeFiles\FemGuiLib.dir\src\ui\MainWindow.cpp.obj
+[22/33] Building CXX object CMakeFiles\FemGuiLib.dir\src\ui\ProjectPanel.cpp.obj
+[23/33] Building CXX object CMakeFiles\FemGuiLib.dir\src\ui\ViewportWidget.cpp.obj
+[24/33] Linking CXX static library FemGuiLib.lib
+[25/33] Automatic MOC and UIC for target FemGui
+[26/33] Building CXX object CMakeFiles\FemGui.dir\FemGui_autogen\mocs_compilation.cpp.obj
+[27/33] Automatic MOC and UIC for target FemGuiTests
+[28/33] Building CXX object CMakeFiles\FemGuiTests.dir\FemGuiTests_autogen\mocs_compilation.cpp.obj
+[29/33] Building CXX object CMakeFiles\FemGui.dir\src\app\Application.cpp.obj
+[30/33] Building CXX object CMakeFiles\FemGui.dir\src\app\main.cpp.obj
+[31/33] Linking CXX executable FemGui.exe
+[32/33] Building CXX object CMakeFiles\FemGuiTests.dir\tests\IntegrationTests.cpp.obj
+[33/33] Linking CXX executable FemGuiTests.exe

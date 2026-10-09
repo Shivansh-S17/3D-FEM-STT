@@ -1,0 +1,3 @@
+# Preserve the received source and hashed numerical fixtures byte-for-byte.
+C3D8v/** -text
+tests/fixtures/c3d8/** -text

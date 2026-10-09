@@ -1,0 +1,17 @@
+build/
+build-*/
+out/
+CMakeUserPresets.json
+*.user
+*.obj
+*.ilk
+*.pdb
+.vs/
+.vscode/
+dist/
+dist.previous-*/
+runs/
+__pycache__/
+
+.DS_Store
+Thumbs.db

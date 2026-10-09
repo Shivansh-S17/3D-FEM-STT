@@ -1,0 +1,54 @@
+-- The CXX compiler identification is MSVC 19.44.35228.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: C:/Program1/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/cl.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - not found
+-- Found Threads: TRUE
+-- Performing Test HAVE_STDATOMIC
+-- Performing Test HAVE_STDATOMIC - Success
+-- Found WrapAtomic: TRUE
+-- Could NOT find WrapVulkanHeaders (missing: Vulkan_INCLUDE_DIR) 
+-- Could NOT find WrapVulkanHeaders (missing: Vulkan_INCLUDE_DIR) 
+-- Found Python3: C:/Users/stuxn/AppData/Local/Programs/Python/Python312/python.exe (found version "3.12.2") found components: Interpreter
+-- Configuring done (5.7s)
+-- Generating done (0.3s)
+-- Build files have been written to: D:/Softwares/OneDrive - MSFT/College/Sem7/Software Tools and Techniques for CSE/Project/submissions/week2/code/build/release
+[1/31] Automatic MOC and UIC for target FemGuiLib
+[2/31] Building CXX object CMakeFiles\FemGuiLib.dir\src\solver\C3D8SolverAdapter.cpp.obj
+[3/31] Building CXX object CMakeFiles\FemGuiLib.dir\src\solver\SolverAdapterRegistry.cpp.obj
+[4/31] Building CXX object CMakeFiles\FemGuiLib.dir\src\solver\PlateSolverAdapter.cpp.obj
+[5/31] Building CXX object CMakeFiles\FemGuiLib.dir\src\ui\PressurePatchDialog.cpp.obj
+[6/31] Building CXX object CMakeFiles\FemGuiLib.dir\src\core\ResultSet.cpp.obj
+[7/31] Building CXX object CMakeFiles\FemGuiLib.dir\src\solver\SolverJob.cpp.obj
+[8/31] Building CXX object CMakeFiles\FemGuiLib.dir\src\ui\ProblemsPanel.cpp.obj
+[9/31] Building CXX object CMakeFiles\FemGuiLib.dir\src\io\ResultExporter.cpp.obj
+[10/31] Building CXX object CMakeFiles\FemGuiLib.dir\src\core\ProjectDocument.cpp.obj
+[11/31] Building CXX object CMakeFiles\FemGuiLib.dir\src\io\ResultImporter.cpp.obj
+[12/31] Building CXX object CMakeFiles\FemGuiLib.dir\src\controllers\ProjectController.cpp.obj
+[13/31] Building CXX object CMakeFiles\FemGuiLib.dir\src\ui\InspectorPanel.cpp.obj
+[14/31] Building CXX object CMakeFiles\FemGuiLib.dir\src\io\ProjectSerializer.cpp.obj
+[15/31] Building CXX object CMakeFiles\FemGuiLib.dir\src\visualization\C3D8MeshBuilder.cpp.obj
+[16/31] Building CXX object CMakeFiles\FemGuiLib.dir\src\visualization\PlateMeshBuilder.cpp.obj
+[17/31] Building CXX object CMakeFiles\FemGuiLib.dir\FemGuiLib_autogen\mocs_compilation.cpp.obj
+[18/31] Building CXX object CMakeFiles\FemGuiLib.dir\src\ui\ViewportWidget.cpp.obj
+[19/31] Building CXX object CMakeFiles\FemGuiLib.dir\src\controllers\AnalysisController.cpp.obj
+[20/31] Building CXX object CMakeFiles\FemGuiLib.dir\src\ui\MainWindow.cpp.obj
+[21/31] Building CXX object CMakeFiles\FemGuiLib.dir\src\ui\ProjectPanel.cpp.obj
+[22/31] Linking CXX static library FemGuiLib.lib
+[23/31] Automatic MOC and UIC for target FemGui
+[24/31] Building CXX object CMakeFiles\FemGui.dir\FemGui_autogen\mocs_compilation.cpp.obj
+[25/31] Automatic MOC and UIC for target FemGuiTests
+[26/31] Building CXX object CMakeFiles\FemGuiTests.dir\FemGuiTests_autogen\mocs_compilation.cpp.obj
+[27/31] Building CXX object CMakeFiles\FemGui.dir\src\app\Application.cpp.obj
+[28/31] Building CXX object CMakeFiles\FemGui.dir\src\app\main.cpp.obj
+[29/31] Linking CXX executable FemGui.exe
+[30/31] Building CXX object CMakeFiles\FemGuiTests.dir\tests\IntegrationTests.cpp.obj
+[31/31] Linking CXX executable FemGuiTests.exe
+Build succeeded: D:\Softwares\OneDrive - MSFT\College\Sem7\Software Tools and Techniques for CSE\Project\submissions\week2\code\build\release\FemGui.exe

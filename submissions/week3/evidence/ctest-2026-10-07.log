@@ -1,0 +1,17 @@
+Test project D:/Files/Projects/STTCSEProject/submissions/week3/code/build/release
+    Start 1: Integration
+1/6 Test #1: Integration ......................   Passed   13.59 sec
+    Start 2: SolverContract
+2/6 Test #2: SolverContract ...................   Passed    9.49 sec
+    Start 3: NumericalQualification
+3/6 Test #3: NumericalQualification ...........   Passed    2.95 sec
+    Start 4: C3D8Reference
+4/6 Test #4: C3D8Reference ....................   Passed    0.64 sec
+    Start 5: C3D8Production
+5/6 Test #5: C3D8Production ...................   Passed    4.21 sec
+    Start 6: C3D8Qualification
+6/6 Test #6: C3D8Qualification ................   Passed   69.91 sec
+
+100% tests passed, 0 tests failed out of 6
+
+Total Test time (real) = 100.87 sec

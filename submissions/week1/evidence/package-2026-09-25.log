@@ -1,0 +1,61 @@
+-- Could NOT find WrapVulkanHeaders (missing: Vulkan_INCLUDE_DIR) 
+-- Could NOT find WrapVulkanHeaders (missing: Vulkan_INCLUDE_DIR) 
+-- Configuring done (0.4s)
+-- Generating done (0.2s)
+-- Build files have been written to: D:/Files/Projects/STTCSEProject/submissions/week1/code/build/release
+ninja: no work to do.
+Build succeeded: D:\Files\Projects\STTCSEProject\submissions\week1\code\build\release\FemGui.exe
+D:\Files\Projects\STTCSEProject\submissions\week1\code\dist\FemGui.exe 64 bit, release executable
+Adding in plugin type generic for module: Qt6Gui
+Adding Qt6Network for qtuiotouchplugin.dll from plugin type: generic
+Adding in plugin type iconengines for module: Qt6Gui
+Adding Qt6Svg for qsvgicon.dll from plugin type: iconengines
+Adding in plugin type imageformats for module: Qt6Gui
+Adding in plugin type networkinformation for module: Qt6Network
+Adding in plugin type platforms for module: Qt6Gui
+Adding in plugin type styles for module: Qt6Widgets
+Adding in plugin type tls for module: Qt6Network
+Skipping plugin qopensslbackend.dll. Use -force-openssl or specify -openssl-root if you want to use it.
+Performing additional pass of finding Qt plugins due to updated Qt module list: Qt6Core Qt6Gui Qt6Network Qt6OpenGL Qt6OpenGLWidgets Qt6Svg Qt6Widgets
+Adding in plugin type generic for module: Qt6Gui
+Adding in plugin type iconengines for module: Qt6Gui
+Adding in plugin type imageformats for module: Qt6Gui
+Adding in plugin type networkinformation for module: Qt6Network
+Adding in plugin type platforms for module: Qt6Gui
+Adding in plugin type styles for module: Qt6Widgets
+Adding in plugin type tls for module: Qt6Network
+Skipping plugin qopensslbackend.dll. Use -force-openssl or specify -openssl-root if you want to use it.
+Direct dependencies: Qt6Core Qt6Gui Qt6OpenGL Qt6OpenGLWidgets Qt6Widgets
+All dependencies   : Qt6Core Qt6Gui Qt6OpenGL Qt6OpenGLWidgets Qt6Widgets
+To be deployed     : Qt6Core Qt6Gui Qt6Network Qt6OpenGL Qt6OpenGLWidgets Qt6Svg Qt6Widgets
+Skipping system library C:/WINDOWS/system32/icuuc.dll
+Updating Qt6Core.dll.
+Updating Qt6Gui.dll.
+Updating Qt6Network.dll.
+Updating Qt6OpenGL.dll.
+Updating Qt6OpenGLWidgets.dll.
+Updating Qt6Svg.dll.
+Updating Qt6Widgets.dll.
+Updating dxcompiler.dll.
+Updating dxil.dll.
+Updating vc_redist.x64.exe.
+Creating directory D:/Files/Projects/STTCSEProject/submissions/week1/code/dist/generic.
+Updating qtuiotouchplugin.dll.
+Creating directory D:/Files/Projects/STTCSEProject/submissions/week1/code/dist/iconengines.
+Updating qsvgicon.dll.
+Creating directory D:/Files/Projects/STTCSEProject/submissions/week1/code/dist/imageformats.
+Updating qgif.dll.
+Updating qico.dll.
+Updating qjpeg.dll.
+Updating qsvg.dll.
+Creating directory D:/Files/Projects/STTCSEProject/submissions/week1/code/dist/networkinformation.
+Updating qnetworklistmanager.dll.
+Creating directory D:/Files/Projects/STTCSEProject/submissions/week1/code/dist/platforms.
+Updating qwindows.dll.
+Creating directory D:/Files/Projects/STTCSEProject/submissions/week1/code/dist/styles.
+Updating qmodernwindowsstyle.dll.
+Creating directory D:/Files/Projects/STTCSEProject/submissions/week1/code/dist/tls.
+Updating qcertonlybackend.dll.
+Updating qschannelbackend.dll.
+Package ready: D:\Files\Projects\STTCSEProject\submissions\week1\code\packaging\..\dist\FemGui.exe
+Zip the 'D:\Files\Projects\STTCSEProject\submissions\week1\code\packaging\..\dist' folder to hand it off; FemGui.exe inside it can be double-clicked directly.

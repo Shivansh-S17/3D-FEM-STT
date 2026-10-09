@@ -1,0 +1,1012 @@
+{
+  "purpose": "Software consistency and local performance measurement, not independent engineering acceptance",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "processor": "Intel64 Family 6 Model 154 Stepping 3, GenuineIntel",
+  "logicalCpus": 16,
+  "physicalMemoryBytes": 16869548032,
+  "python": "3.12.2",
+  "numpy": "1.26.3",
+  "scipy": "1.13.0",
+  "threadEnvironment": {
+    "OMP_NUM_THREADS": null,
+    "OPENBLAS_NUM_THREADS": null,
+    "MKL_NUM_THREADS": null
+  },
+  "sampling": "One cold child per row; 20 ms polling; Windows peak working set when available, otherwise sampled RSS",
+  "limits": {
+    "timeoutSeconds": 90,
+    "peakMemoryBytes": 1073741824
+  },
+  "runs": [
+    {
+      "grid": 5,
+      "nodes": 25,
+      "dofs": 125,
+      "solver": "dense",
+      "wallSeconds": 0.763093099994876,
+      "peakWorkingSetBytes": 70742016,
+      "exitCode": 0,
+      "summary": {
+        "nodeCount": 25,
+        "elementCount": 16,
+        "totalAppliedLoadN": 175000.0,
+        "linearSolver": "dense",
+        "timingsSeconds": {
+          "setup": 0.01972290000412613,
+          "assembly": 0.014772799993806984,
+          "loads": 0.00018909999926108867,
+          "solve": 0.1033093000005465,
+          "postprocessing": 0.007081600000674371,
+          "export": 0.0021813000057591125,
+          "total": 0.14725929999985965,
+          "linearSolve": 0.09060719999979483,
+          "factorization": 0.0
+        },
+        "numericalChecks": {
+          "scaledResidualByDof": {
+            "w": 2.0384768079238484e-15,
+            "theta_x": 2.1362282253674824e-16,
+            "theta_y": 2.3893897593990936e-16,
+            "u": 0.0,
+            "v": 0.0
+          },
+          "scaledStiffnessSymmetryError": 1.1102230246251563e-16,
+          "assembledVerticalForceN": 175000.0,
+          "expectedVerticalForceN": 175000.0,
+          "stiffnessNonzeros": 1765,
+          "denseMatrixBytes": 125000,
+          "factorNonzeros": null
+        },
+        "fields": {
+          "w": {
+            "min": 0.13318120981503506,
+            "max": 0.2073020010179259
+          },
+          "theta_x": {
+            "min": -0.00011189261607728004,
+            "max": 0.000111892616077448
+          },
+          "theta_y": {
+            "min": -0.00011189261607739065,
+            "max": 0.00011189261607726369
+          },
+          "u": {
+            "min": 0.0,
+            "max": 0.0
+          },
+          "v": {
+            "min": 0.0,
+            "max": 0.0
+          },
+          "sxx_top": {
+            "min": -2.2217195948329604,
+            "max": 0.15844080557336712
+          },
+          "syy_top": {
+            "min": -2.2217195948331554,
+            "max": 0.158440805573329
+          },
+          "sxy_top": {
+            "min": -0.27858694628692166,
+            "max": 0.2785869462868412
+          },
+          "sxx_bottom": {
+            "min": -0.15844080557336712,
+            "max": 2.2217195948329604
+          },
+          "syy_bottom": {
+            "min": -0.158440805573329,
+            "max": 2.2217195948331554
+          },
+          "sxy_bottom": {
+            "min": -0.2785869462868412,
+            "max": 0.27858694628692166
+          },
+          "sxx_membrane": {
+            "min": 0.0,
+            "max": 0.0
+          },
+          "syy_membrane": {
+            "min": 0.0,
+            "max": 0.0
+          },
+          "sxy_membrane": {
+            "min": 0.0,
+            "max": 0.0
+          }
+        }
+      }
+    },
+    {
+      "grid": 5,
+      "nodes": 25,
+      "dofs": 125,
+      "solver": "sparse",
+      "wallSeconds": 0.6629628000009689,
+      "peakWorkingSetBytes": 69980160,
+      "exitCode": 0,
+      "summary": {
+        "nodeCount": 25,
+        "elementCount": 16,
+        "totalAppliedLoadN": 175000.0,
+        "linearSolver": "sparse",
+        "timingsSeconds": {
+          "setup": 0.00774989999626996,
+          "assembly": 0.015561000000161584,
+          "loads": 0.00020049999875482172,
+          "solve": 0.009753900005307514,
+          "postprocessing": 0.005561300000408664,
+          "export": 0.0018381999980192631,
+          "total": 0.04066669999883743,
+          "linearSolve": 0.00014329998521134257,
+          "factorization": 0.00039370000013150275
+        },
+        "numericalChecks": {
+          "scaledResidualByDof": {
+            "w": 5.8612185600225635e-15,
+            "theta_x": 2.0366703187262393e-16,
+            "theta_y": 2.0082252025429152e-16,
+            "u": 0.0,
+            "v": 0.0
+          },
+          "scaledStiffnessSymmetryError": 1.1102230246251563e-16,
+          "assembledVerticalForceN": 175000.0,
+          "expectedVerticalForceN": 175000.0,
+          "stiffnessNonzeros": 1765,
+          "denseMatrixBytes": 125000,
+          "factorNonzeros": 4219
+        },
+        "fields": {
+          "w": {
+            "min": 0.1331812098148971,
+            "max": 0.2073020010178837
+          },
+          "theta_x": {
+            "min": -0.00011189261607751003,
+            "max": 0.00011189261607724756
+          },
+          "theta_y": {
+            "min": -0.0001118926160772168,
+            "max": 0.00011189261607743377
+          },
+          "u": {
+            "min": 0.0,
+            "max": 0.0
+          },
+          "v": {
+            "min": 0.0,
+            "max": 0.0
+          },
+          "sxx_top": {
+            "min": -2.2217195948330364,
+            "max": 0.15844080557329618
+          },
+          "syy_top": {
+            "min": -2.221719594833359,
+            "max": 0.15844080557333007
+          },
+          "sxy_top": {
+            "min": -0.2785869462867242,
+            "max": 0.2785869462870466
+          },
+          "sxx_bottom": {
+            "min": -0.15844080557329618,
+            "max": 2.2217195948330364
+          },
+          "syy_bottom": {
+            "min": -0.15844080557333007,
+            "max": 2.221719594833359
+          },
+          "sxy_bottom": {
+            "min": -0.2785869462870466,
+            "max": 0.2785869462867242
+          },
+          "sxx_membrane": {
+            "min": 0.0,
+            "max": 0.0
+          },
+          "syy_membrane": {
+            "min": 0.0,
+            "max": 0.0
+          },
+          "sxy_membrane": {
+            "min": 0.0,
+            "max": 0.0
+          }
+        }
+      }
+    },
+    {
+      "grid": 9,
+      "nodes": 81,
+      "dofs": 405,
+      "solver": "dense",
+      "wallSeconds": 0.9503932000006898,
+      "peakWorkingSetBytes": 74858496,
+      "exitCode": 0,
+      "summary": {
+        "nodeCount": 81,
+        "elementCount": 64,
+        "totalAppliedLoadN": 175000.0,
+        "linearSolver": "dense",
+        "timingsSeconds": {
+          "setup": 0.033254400004807394,
+          "assembly": 0.06267989999469137,
+          "loads": 0.00040440000157104805,
+          "solve": 0.24249100000452017,
+          "postprocessing": 0.02236049999919487,
+          "export": 0.0033155999990412965,
+          "total": 0.36450820000027306,
+          "linearSolve": 0.20877739999559708,
+          "factorization": 0.0
+        },
+        "numericalChecks": {
+          "scaledResidualByDof": {
+            "w": 3.057309987747963e-15,
+            "theta_x": 2.3704919762407167e-16,
+            "theta_y": 4.1461444328163645e-16,
+            "u": 0.0,
+            "v": 0.0
+          },
+          "scaledStiffnessSymmetryError": 1.1102230246251563e-16,
+          "assembledVerticalForceN": 175000.0,
+          "expectedVerticalForceN": 175000.0,
+          "stiffnessNonzeros": 6221,
+          "denseMatrixBytes": 1312200,
+          "factorNonzeros": null
+        },
+        "fields": {
+          "w": {
+            "min": 0.13238084396809383,
+            "max": 0.20681348274856404
+          },
+          "theta_x": {
+            "min": -0.00011532195067390372,
+            "max": 0.00011532195067336394
+          },
+          "theta_y": {
+            "min": -0.00011532195067325292,
+            "max": 0.00011532195067372177
+          },
+          "u": {
+            "min": 0.0,
+            "max": 0.0
+          },
+          "v": {
+            "min": 0.0,
+            "max": 0.0
+          },
+          "sxx_top": {
+            "min": -2.0261879884861496,
+            "max": 0.0484620439159629
+          },
+          "syy_top": {
+            "min": -2.0261879884871155,
+            "max": 0.04846204391597984
+          },
+          "sxy_top": {
+            "min": -0.2675233282531353,
+            "max": 0.26752332825159364
+          },
+          "sxx_bottom": {
+            "min": -0.0484620439159629,
+            "max": 2.0261879884861496
+          },
+          "syy_bottom": {
+            "min": -0.04846204391597984,
+            "max": 2.0261879884871155
+          },
+          "sxy_bottom": {
+            "min": -0.26752332825159364,
+            "max": 0.2675233282531353
+          },
+          "sxx_membrane": {
+            "min": 0.0,
+            "max": 0.0
+          },
+          "syy_membrane": {
+            "min": 0.0,
+            "max": 0.0
+          },
+          "sxy_membrane": {
+            "min": 0.0,
+            "max": 0.0
+          }
+        }
+      }
+    },
+    {
+      "grid": 9,
+      "nodes": 81,
+      "dofs": 405,
+      "solver": "sparse",
+      "wallSeconds": 0.7619814999998198,
+      "peakWorkingSetBytes": 71749632,
+      "exitCode": 0,
+      "summary": {
+        "nodeCount": 81,
+        "elementCount": 64,
+        "totalAppliedLoadN": 175000.0,
+        "linearSolver": "sparse",
+        "timingsSeconds": {
+          "setup": 0.023780100003932603,
+          "assembly": 0.062438299995847046,
+          "loads": 0.00043559999903663993,
+          "solve": 0.02966260000539478,
+          "postprocessing": 0.01647709999815561,
+          "export": 0.003194400000211317,
+          "total": 0.13599000000249362,
+          "linearSolve": 0.0003777000092668459,
+          "factorization": 0.002253599996038247
+        },
+        "numericalChecks": {
+          "scaledResidualByDof": {
+            "w": 4.1365930254726175e-15,
+            "theta_x": 3.0812508577111803e-16,
+            "theta_y": 4.603918400061935e-16,
+            "u": 0.0,
+            "v": 0.0
+          },
+          "scaledStiffnessSymmetryError": 1.1102230246251563e-16,
+          "assembledVerticalForceN": 175000.0,
+          "expectedVerticalForceN": 175000.0,
+          "stiffnessNonzeros": 6221,
+          "denseMatrixBytes": 1312200,
+          "factorNonzeros": 26182
+        },
+        "fields": {
+          "w": {
+            "min": 0.1323808439681717,
+            "max": 0.20681348274836125
+          },
+          "theta_x": {
+            "min": -0.00011532195067299119,
+            "max": 0.0001153219506734119
+          },
+          "theta_y": {
+            "min": -0.00011532195067382684,
+            "max": 0.00011532195067376604
+          },
+          "u": {
+            "min": 0.0,
+            "max": 0.0
+          },
+          "v": {
+            "min": 0.0,
+            "max": 0.0
+          },
+          "sxx_top": {
+            "min": -2.0261879884892458,
+            "max": 0.048462043916081485
+          },
+          "syy_top": {
+            "min": -2.026187988485722,
+            "max": 0.04846204391647112
+          },
+          "sxy_top": {
+            "min": -0.26752332825306324,
+            "max": 0.26752332825265035
+          },
+          "sxx_bottom": {
+            "min": -0.048462043916081485,
+            "max": 2.0261879884892458
+          },
+          "syy_bottom": {
+            "min": -0.04846204391647112,
+            "max": 2.026187988485722
+          },
+          "sxy_bottom": {
+            "min": -0.26752332825265035,
+            "max": 0.26752332825306324
+          },
+          "sxx_membrane": {
+            "min": 0.0,
+            "max": 0.0
+          },
+          "syy_membrane": {
+            "min": 0.0,
+            "max": 0.0
+          },
+          "sxy_membrane": {
+            "min": 0.0,
+            "max": 0.0
+          }
+        }
+      }
+    },
+    {
+      "grid": 17,
+      "nodes": 289,
+      "dofs": 1445,
+      "solver": "dense",
+      "wallSeconds": 1.4844255999996676,
+      "peakWorkingSetBytes": 110542848,
+      "exitCode": 0,
+      "summary": {
+        "nodeCount": 289,
+        "elementCount": 256,
+        "totalAppliedLoadN": 175000.0,
+        "linearSolver": "dense",
+        "timingsSeconds": {
+          "setup": 0.10658080000575865,
+          "assembly": 0.24787449999712408,
+          "loads": 0.0012810999978682958,
+          "solve": 0.4490132999999332,
+          "postprocessing": 0.06180780000431696,
+          "export": 0.007289399996807333,
+          "total": 0.8738491000040085,
+          "linearSolve": 0.4111118000000715,
+          "factorization": 0.0
+        },
+        "numericalChecks": {
+          "scaledResidualByDof": {
+            "w": 2.6351426034559657e-15,
+            "theta_x": 4.988497383818817e-16,
+            "theta_y": 5.899529523017335e-16,
+            "u": 0.0,
+            "v": 0.0
+          },
+          "scaledStiffnessSymmetryError": 5.5511151231257815e-17,
+          "assembledVerticalForceN": 175000.0,
+          "expectedVerticalForceN": 175000.0,
+          "stiffnessNonzeros": 23293,
+          "denseMatrixBytes": 16704200,
+          "factorNonzeros": null
+        },
+        "fields": {
+          "w": {
+            "min": 0.1321537957969225,
+            "max": 0.20669315411135464
+          },
+          "theta_x": {
+            "min": -0.00011464147285834501,
+            "max": 0.00011464147286027282
+          },
+          "theta_y": {
+            "min": -0.00011464147286051816,
+            "max": 0.00011464147285862005
+          },
+          "u": {
+            "min": 0.0,
+            "max": 0.0
+          },
+          "v": {
+            "min": 0.0,
+            "max": 0.0
+          },
+          "sxx_top": {
+            "min": -1.978609282094619,
+            "max": 0.01768698816082665
+          },
+          "syy_top": {
+            "min": -1.9786092820896046,
+            "max": 0.017686988160962175
+          },
+          "sxy_top": {
+            "min": -0.26090978786473207,
+            "max": 0.26090978786496927
+          },
+          "sxx_bottom": {
+            "min": -0.01768698816082665,
+            "max": 1.978609282094619
+          },
+          "syy_bottom": {
+            "min": -0.017686988160962175,
+            "max": 1.9786092820896046
+          },
+          "sxy_bottom": {
+            "min": -0.26090978786496927,
+            "max": 0.26090978786473207
+          },
+          "sxx_membrane": {
+            "min": 0.0,
+            "max": 0.0
+          },
+          "syy_membrane": {
+            "min": 0.0,
+            "max": 0.0
+          },
+          "sxy_membrane": {
+            "min": 0.0,
+            "max": 0.0
+          }
+        }
+      }
+    },
+    {
+      "grid": 17,
+      "nodes": 289,
+      "dofs": 1445,
+      "solver": "sparse",
+      "wallSeconds": 1.0520027999955346,
+      "peakWorkingSetBytes": 77533184,
+      "exitCode": 0,
+      "summary": {
+        "nodeCount": 289,
+        "elementCount": 256,
+        "totalAppliedLoadN": 175000.0,
+        "linearSolver": "sparse",
+        "timingsSeconds": {
+          "setup": 0.08882710000034422,
+          "assembly": 0.24891990000469377,
+          "loads": 0.0012401999993016943,
+          "solve": 0.03759849999914877,
+          "postprocessing": 0.05303819999971893,
+          "export": 0.006830699996498879,
+          "total": 0.4364564999996219,
+          "linearSolve": 0.0013902000137022696,
+          "factorization": 0.004683400002249982
+        },
+        "numericalChecks": {
+          "scaledResidualByDof": {
+            "w": 2.471725612023234e-15,
+            "theta_x": 5.126314816536245e-16,
+            "theta_y": 4.694416715549311e-16,
+            "u": 0.0,
+            "v": 0.0
+          },
+          "scaledStiffnessSymmetryError": 5.5511151231257815e-17,
+          "assembledVerticalForceN": 175000.0,
+          "expectedVerticalForceN": 175000.0,
+          "stiffnessNonzeros": 23293,
+          "denseMatrixBytes": 16704200,
+          "factorNonzeros": 149716
+        },
+        "fields": {
+          "w": {
+            "min": 0.13215379579740305,
+            "max": 0.20669315411151815
+          },
+          "theta_x": {
+            "min": -0.00011464147285973425,
+            "max": 0.0001146414728598195
+          },
+          "theta_y": {
+            "min": -0.00011464147285914805,
+            "max": 0.00011464147286010544
+          },
+          "u": {
+            "min": 0.0,
+            "max": 0.0
+          },
+          "v": {
+            "min": 0.0,
+            "max": 0.0
+          },
+          "sxx_top": {
+            "min": -1.9786092820896726,
+            "max": 0.017686988161148522
+          },
+          "syy_top": {
+            "min": -1.9786092820904853,
+            "max": 0.017686988161758385
+          },
+          "sxy_top": {
+            "min": -0.2609097878664515,
+            "max": 0.2609097878617082
+          },
+          "sxx_bottom": {
+            "min": -0.017686988161148522,
+            "max": 1.9786092820896726
+          },
+          "syy_bottom": {
+            "min": -0.017686988161758385,
+            "max": 1.9786092820904853
+          },
+          "sxy_bottom": {
+            "min": -0.2609097878617082,
+            "max": 0.2609097878664515
+          },
+          "sxx_membrane": {
+            "min": 0.0,
+            "max": 0.0
+          },
+          "syy_membrane": {
+            "min": 0.0,
+            "max": 0.0
+          },
+          "sxy_membrane": {
+            "min": 0.0,
+            "max": 0.0
+          }
+        }
+      }
+    },
+    {
+      "grid": 25,
+      "nodes": 625,
+      "dofs": 3125,
+      "solver": "dense",
+      "wallSeconds": 2.9125591999982134,
+      "peakWorkingSetBytes": 242479104,
+      "exitCode": 0,
+      "summary": {
+        "nodeCount": 625,
+        "elementCount": 576,
+        "totalAppliedLoadN": 175000.0,
+        "linearSolver": "dense",
+        "timingsSeconds": {
+          "setup": 0.21462469999823952,
+          "assembly": 0.5627617000063765,
+          "loads": 0.0026343999998061918,
+          "solve": 1.381773000000976,
+          "postprocessing": 0.12835319999430794,
+          "export": 0.013369300002523232,
+          "total": 2.3035186999986763,
+          "linearSolve": 1.2992993000007118,
+          "factorization": 0.0
+        },
+        "numericalChecks": {
+          "scaledResidualByDof": {
+            "w": 2.6052025270188723e-15,
+            "theta_x": 5.820103946036161e-16,
+            "theta_y": 8.451706730369472e-16,
+            "u": 0.0,
+            "v": 0.0
+          },
+          "scaledStiffnessSymmetryError": 1.1102230246251563e-16,
+          "assembledVerticalForceN": 174999.99999999997,
+          "expectedVerticalForceN": 175000.0,
+          "stiffnessNonzeros": 59737,
+          "denseMatrixBytes": 78125000,
+          "factorNonzeros": null
+        },
+        "fields": {
+          "w": {
+            "min": 0.13211045371955857,
+            "max": 0.20667102546520827
+          },
+          "theta_x": {
+            "min": -0.00011471292265784175,
+            "max": 0.00011471292265418664
+          },
+          "theta_y": {
+            "min": -0.00011471292265107407,
+            "max": 0.00011471292265746333
+          },
+          "u": {
+            "min": 0.0,
+            "max": 0.0
+          },
+          "v": {
+            "min": 0.0,
+            "max": 0.0
+          },
+          "sxx_top": {
+            "min": -1.9699809414391516,
+            "max": 0.017403387068506047
+          },
+          "syy_top": {
+            "min": -1.9699809414516878,
+            "max": 0.017403387070250943
+          },
+          "sxy_top": {
+            "min": -0.25923948389359114,
+            "max": 0.25923948390058765
+          },
+          "sxx_bottom": {
+            "min": -0.017403387068506047,
+            "max": 1.9699809414391516
+          },
+          "syy_bottom": {
+            "min": -0.017403387070250943,
+            "max": 1.9699809414516878
+          },
+          "sxy_bottom": {
+            "min": -0.25923948390058765,
+            "max": 0.25923948389359114
+          },
+          "sxx_membrane": {
+            "min": 0.0,
+            "max": 0.0
+          },
+          "syy_membrane": {
+            "min": 0.0,
+            "max": 0.0
+          },
+          "sxy_membrane": {
+            "min": 0.0,
+            "max": 0.0
+          }
+        }
+      }
+    },
+    {
+      "grid": 25,
+      "nodes": 625,
+      "dofs": 3125,
+      "solver": "sparse",
+      "wallSeconds": 1.7086481000005733,
+      "peakWorkingSetBytes": 91181056,
+      "exitCode": 0,
+      "summary": {
+        "nodeCount": 625,
+        "elementCount": 576,
+        "totalAppliedLoadN": 175000.0,
+        "linearSolver": "sparse",
+        "timingsSeconds": {
+          "setup": 0.19700319999537896,
+          "assembly": 0.6102226000002702,
+          "loads": 0.0027707999979611486,
+          "solve": 0.10615790000156267,
+          "postprocessing": 0.14259770000353456,
+          "export": 0.0182379999969271,
+          "total": 1.0769918999940273,
+          "linearSolve": 0.004709900007583201,
+          "factorization": 0.014932400001271162
+        },
+        "numericalChecks": {
+          "scaledResidualByDof": {
+            "w": 3.5190962469709814e-15,
+            "theta_x": 7.455881537276147e-16,
+            "theta_y": 8.753280808030521e-16,
+            "u": 0.0,
+            "v": 0.0
+          },
+          "scaledStiffnessSymmetryError": 1.1102230246251563e-16,
+          "assembledVerticalForceN": 174999.99999999997,
+          "expectedVerticalForceN": 175000.0,
+          "stiffnessNonzeros": 59737,
+          "denseMatrixBytes": 78125000,
+          "factorNonzeros": 466065
+        },
+        "fields": {
+          "w": {
+            "min": 0.13211045371465985,
+            "max": 0.20667102546403765
+          },
+          "theta_x": {
+            "min": -0.00011471292266821139,
+            "max": 0.00011471292264420795
+          },
+          "theta_y": {
+            "min": -0.00011471292264951508,
+            "max": 0.00011471292265937481
+          },
+          "u": {
+            "min": 0.0,
+            "max": 0.0
+          },
+          "v": {
+            "min": 0.0,
+            "max": 0.0
+          },
+          "sxx_top": {
+            "min": -1.9699809414374747,
+            "max": 0.017403387069624132
+          },
+          "syy_top": {
+            "min": -1.9699809414530602,
+            "max": 0.01740338706845524
+          },
+          "sxy_top": {
+            "min": -0.2592394839087361,
+            "max": 0.2592394839010281
+          },
+          "sxx_bottom": {
+            "min": -0.017403387069624132,
+            "max": 1.9699809414374747
+          },
+          "syy_bottom": {
+            "min": -0.01740338706845524,
+            "max": 1.9699809414530602
+          },
+          "sxy_bottom": {
+            "min": -0.2592394839010281,
+            "max": 0.2592394839087361
+          },
+          "sxx_membrane": {
+            "min": 0.0,
+            "max": 0.0
+          },
+          "syy_membrane": {
+            "min": 0.0,
+            "max": 0.0
+          },
+          "sxy_membrane": {
+            "min": 0.0,
+            "max": 0.0
+          }
+        }
+      }
+    },
+    {
+      "grid": 33,
+      "nodes": 1089,
+      "dofs": 5445,
+      "solver": "dense",
+      "wallSeconds": 6.915065900000627,
+      "peakWorkingSetBytes": 568758272,
+      "exitCode": 0,
+      "summary": {
+        "nodeCount": 1089,
+        "elementCount": 1024,
+        "totalAppliedLoadN": 175000.0,
+        "linearSolver": "dense",
+        "timingsSeconds": {
+          "setup": 0.36373830000229646,
+          "assembly": 1.0050331999955233,
+          "loads": 0.0052066000062040985,
+          "solve": 4.496881699997175,
+          "postprocessing": 0.3073549999971874,
+          "export": 0.03370379999978468,
+          "total": 6.211920900001132,
+          "linearSolve": 4.288075000004028,
+          "factorization": 0.0
+        },
+        "numericalChecks": {
+          "scaledResidualByDof": {
+            "w": 3.17481814059755e-15,
+            "theta_x": 5.668231693901024e-16,
+            "theta_y": 9.313316663287283e-16,
+            "u": 0.0,
+            "v": 0.0
+          },
+          "scaledStiffnessSymmetryError": 1.1102230246251563e-16,
+          "assembledVerticalForceN": 175000.0,
+          "expectedVerticalForceN": 175000.0,
+          "stiffnessNonzeros": 90077,
+          "denseMatrixBytes": 237184200,
+          "factorNonzeros": null
+        },
+        "fields": {
+          "w": {
+            "min": 0.13209517256536857,
+            "max": 0.20666329609383763
+          },
+          "theta_x": {
+            "min": -0.00011483724634384097,
+            "max": 0.00011483724633421546
+          },
+          "theta_y": {
+            "min": -0.00011483724634521744,
+            "max": 0.00011483724633877452
+          },
+          "u": {
+            "min": 0.0,
+            "max": 0.0
+          },
+          "v": {
+            "min": 0.0,
+            "max": 0.0
+          },
+          "sxx_top": {
+            "min": -1.9669708141720275,
+            "max": 0.018029241905838385
+          },
+          "syy_top": {
+            "min": -1.9669708141302857,
+            "max": 0.018029241909226508
+          },
+          "sxy_top": {
+            "min": -0.2585578493046289,
+            "max": 0.2585578493006987
+          },
+          "sxx_bottom": {
+            "min": -0.018029241905838385,
+            "max": 1.9669708141720275
+          },
+          "syy_bottom": {
+            "min": -0.018029241909226508,
+            "max": 1.9669708141302857
+          },
+          "sxy_bottom": {
+            "min": -0.2585578493006987,
+            "max": 0.2585578493046289
+          },
+          "sxx_membrane": {
+            "min": 0.0,
+            "max": 0.0
+          },
+          "syy_membrane": {
+            "min": 0.0,
+            "max": 0.0
+          },
+          "sxy_membrane": {
+            "min": 0.0,
+            "max": 0.0
+          }
+        }
+      }
+    },
+    {
+      "grid": 33,
+      "nodes": 1089,
+      "dofs": 5445,
+      "solver": "sparse",
+      "wallSeconds": 2.360752600005071,
+      "peakWorkingSetBytes": 106135552,
+      "exitCode": 0,
+      "summary": {
+        "nodeCount": 1089,
+        "elementCount": 1024,
+        "totalAppliedLoadN": 175000.0,
+        "linearSolver": "sparse",
+        "timingsSeconds": {
+          "setup": 0.3522900000025402,
+          "assembly": 1.0107516999996733,
+          "loads": 0.004590999997162726,
+          "solve": 0.15864590000273893,
+          "postprocessing": 0.18419819999689935,
+          "export": 0.026773300000058953,
+          "total": 1.7372525000027963,
+          "linearSolve": 0.007864500010327902,
+          "factorization": 0.02871199999935925
+        },
+        "numericalChecks": {
+          "scaledResidualByDof": {
+            "w": 5.0293425065586244e-15,
+            "theta_x": 1.076767061127278e-15,
+            "theta_y": 9.872594641643045e-16,
+            "u": 0.0,
+            "v": 0.0
+          },
+          "scaledStiffnessSymmetryError": 1.1102230246251563e-16,
+          "assembledVerticalForceN": 175000.0,
+          "expectedVerticalForceN": 175000.0,
+          "stiffnessNonzeros": 90077,
+          "denseMatrixBytes": 237184200,
+          "factorNonzeros": 904008
+        },
+        "fields": {
+          "w": {
+            "min": 0.13209517256441544,
+            "max": 0.20666329609514225
+          },
+          "theta_x": {
+            "min": -0.00011483724632704013,
+            "max": 0.00011483724634979711
+          },
+          "theta_y": {
+            "min": -0.00011483724633065665,
+            "max": 0.00011483724633948735
+          },
+          "u": {
+            "min": 0.0,
+            "max": 0.0
+          },
+          "v": {
+            "min": 0.0,
+            "max": 0.0
+          },
+          "sxx_top": {
+            "min": -1.9669708140837328,
+            "max": 0.01802924191193702
+          },
+          "syy_top": {
+            "min": -1.9669708141035196,
+            "max": 0.018029241908752183
+          },
+          "sxy_top": {
+            "min": -0.2585578493218067,
+            "max": 0.25855784928457115
+          },
+          "sxx_bottom": {
+            "min": -0.01802924191193702,
+            "max": 1.9669708140837328
+          },
+          "syy_bottom": {
+            "min": -0.018029241908752183,
+            "max": 1.9669708141035196
+          },
+          "sxy_bottom": {
+            "min": -0.25855784928457115,
+            "max": 0.2585578493218067
+          },
+          "sxx_membrane": {
+            "min": 0.0,
+            "max": 0.0
+          },
+          "syy_membrane": {
+            "min": 0.0,
+            "max": 0.0
+          },
+          "sxy_membrane": {
+            "min": 0.0,
+            "max": 0.0
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1360" height="670" viewBox="0 0 1360 670" role="img" aria-label="Week 1 to Week 2 C3D8 progress map">
+  <defs>
+    <style>
+      .title { font: 700 36px 'Segoe UI',Arial,sans-serif; fill: #f2f7ff; }
+      .sub { font: 19px 'Segoe UI',Arial,sans-serif; fill: #bed0e6; }
+      .head { font: 700 25px 'Segoe UI',Arial,sans-serif; fill: #f4f8ff; }
+      .body { font: 20px 'Segoe UI',Arial,sans-serif; fill: #e0eafa; }
+      .foot { font: 17px 'Segoe UI',Arial,sans-serif; fill: #adbed5; }
+    </style>
+  </defs>
+  <rect width="1360" height="670" fill="#0c1525"/>
+  <text x="60" y="70" class="title">C3D8 GUI: Week 1 → Week 2</text>
+  <text x="60" y="105" class="sub">Features implemented in the weekly submissions</text>
+
+  <rect x="60" y="160" width="350" height="390" rx="22" fill="#203450" stroke="#7196c0" stroke-width="2"/>
+  <text x="90" y="212" class="head">WEEK 1 · Input preview</text>
+  <text x="90" y="274" class="body">• Read-only C3D8 fields</text>
+  <text x="90" y="317" class="body">• Example material and loads</text>
+  <text x="90" y="360" class="body">• Demonstration slab mesh</text>
+  <text x="90" y="403" class="body">• No project data binding</text>
+  <text x="90" y="491" class="foot">Submitted prototype</text>
+
+  <path d="M432 355 H482" stroke="#87b7e6" stroke-width="8" stroke-linecap="round"/>
+  <path d="M477 339 L499 355 L477 371" fill="none" stroke="#87b7e6" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <rect x="518" y="146" width="460" height="420" rx="22" fill="#16463f" stroke="#65d6aa" stroke-width="3"/>
+  <text x="550" y="198" class="head">WEEK 2 · Editable solid model</text>
+  <text x="550" y="258" class="body">• Typed C3D8 document and adapter</text>
+  <text x="550" y="302" class="body">• X/Y/Z, material, subgrade editors</text>
+  <text x="550" y="346" class="body">• Pressure patches and validation</text>
+  <text x="550" y="390" class="body">• Schema-2 project save/open</text>
+  <text x="550" y="434" class="body">• Exact 8-node brick mesh and IDs</text>
+  <text x="550" y="512" class="foot">Built and tested on 01 October 2026</text>
+
+  <path d="M1000 355 H1046" stroke="#87b7e6" stroke-width="8" stroke-linecap="round"/>
+  <path d="M1041 339 L1063 355 L1041 371" fill="none" stroke="#87b7e6" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <rect x="1082" y="160" width="220" height="390" rx="22" fill="#293047" stroke="#9cacc5" stroke-width="2"/>
+  <text x="1110" y="212" class="head">NEXT</text>
+  <text x="1110" y="273" class="body">Production</text>
+  <text x="1110" y="308" class="body">C3D8 solve</text>
+  <text x="1110" y="367" class="body">Real result</text>
+  <text x="1110" y="402" class="body">import</text>
+  <text x="1110" y="490" class="foot">Later milestone</text>
+
+  <text x="60" y="622" class="foot">Week 2: editable C3D8 model and mesh · Production solid solving remains pending.</text>
+</svg>

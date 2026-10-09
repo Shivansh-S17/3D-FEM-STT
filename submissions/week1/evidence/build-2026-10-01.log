@@ -1,0 +1,32 @@
+-- The CXX compiler identification is MSVC 19.44.35228.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: C:/Program1/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/cl.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - not found
+-- Found Threads: TRUE
+-- Performing Test HAVE_STDATOMIC
+-- Performing Test HAVE_STDATOMIC - Success
+-- Found WrapAtomic: TRUE
+-- Could NOT find WrapVulkanHeaders (missing: Vulkan_INCLUDE_DIR) 
+-- Could NOT find WrapVulkanHeaders (missing: Vulkan_INCLUDE_DIR) 
+-- Configuring done (3.2s)
+-- Generating done (0.3s)
+-- Build files have been written to: D:/Softwares/OneDrive - MSFT/College/Sem7/Software Tools and Techniques for CSE/Project/submissions/week1/code/build/release
+[1/10] Automatic MOC and UIC for target FemGui
+[2/10] Building CXX object CMakeFiles\FemGui.dir\src\app\Application.cpp.obj
+[3/10] Building CXX object CMakeFiles\FemGui.dir\src\app\main.cpp.obj
+[4/10] Building CXX object CMakeFiles\FemGui.dir\src\ui\InspectorPanel.cpp.obj
+[5/10] Building CXX object CMakeFiles\FemGui.dir\FemGui_autogen\mocs_compilation.cpp.obj
+[6/10] Building CXX object CMakeFiles\FemGui.dir\src\ui\ProjectPanel.cpp.obj
+[7/10] Building CXX object CMakeFiles\FemGui.dir\src\ui\ProblemsPanel.cpp.obj
+[8/10] Building CXX object CMakeFiles\FemGui.dir\src\ui\MainWindow.cpp.obj
+[9/10] Building CXX object CMakeFiles\FemGui.dir\src\ui\ViewportWidget.cpp.obj
+[10/10] Linking CXX executable FemGui.exe
+Build succeeded: D:\Softwares\OneDrive - MSFT\College\Sem7\Software Tools and Techniques for CSE\Project\submissions\week1\code\build\release\FemGui.exe

@@ -1,0 +1,10 @@
+-- Could NOT find WrapVulkanHeaders (missing: Vulkan_INCLUDE_DIR) 
+-- Could NOT find WrapVulkanHeaders (missing: Vulkan_INCLUDE_DIR) 
+-- Configuring done (0.9s)
+-- Generating done (0.3s)
+-- Build files have been written to: D:/Softwares/OneDrive - MSFT/College/Sem7/Software Tools and Techniques for CSE/Project/submissions/week3/code/build/release
+[1/6] Automatic MOC and UIC for target FemGuiLib
+[2/5] Building CXX object CMakeFiles\FemGuiLib.dir\src\ui\ViewportWidget.cpp.obj
+[3/5] Linking CXX static library FemGuiLib.lib
+[4/5] Linking CXX executable FemGui.exe
+[5/5] Linking CXX executable FemGuiTests.exe

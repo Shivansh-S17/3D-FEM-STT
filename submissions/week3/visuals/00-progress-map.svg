@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="330" viewBox="0 0 1440 330" role="img" aria-labelledby="title desc">
+  <title id="title">FEM GUI weekly milestone progression</title>
+  <desc id="desc">Week 1 C3D8 input preview, Week 2 editing and meshing, Week 3 solve and results, followed by Week 4 feedback and quality assurance.</desc>
+  <rect width="1440" height="330" rx="24" fill="#0c1422"/>
+  <text x="60" y="58" fill="#eaf3ff" font-family="Segoe UI,Arial,sans-serif" font-size="31" font-weight="700">C3D8 GUI project · weekly progression</text>
+  <text x="60" y="89" fill="#a8bdd6" font-family="Segoe UI,Arial,sans-serif" font-size="17">Week 3 adds the complete software path from a typed model to inspected solid results.</text>
+  <g font-family="Segoe UI,Arial,sans-serif">
+    <rect x="58" y="128" width="285" height="145" rx="17" fill="#18314b" stroke="#4d80aa" stroke-width="2"/>
+    <text x="80" y="162" fill="#7bc8ff" font-size="19" font-weight="700">WEEK 1</text>
+    <text x="80" y="195" fill="#f3f7fc" font-size="23" font-weight="650">Input preview</text>
+    <text x="80" y="225" fill="#b7c9dc" font-size="17">C3D8 parameters and</text>
+    <text x="80" y="248" fill="#b7c9dc" font-size="17">initial mesh display</text>
+    <path d="M353 201h29m-10-9 10 9-10 9" fill="none" stroke="#73a7cf" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="392" y="128" width="285" height="145" rx="17" fill="#183b4c" stroke="#45b5bd" stroke-width="2"/>
+    <text x="414" y="162" fill="#73e7db" font-size="19" font-weight="700">WEEK 2</text>
+    <text x="414" y="195" fill="#f3f7fc" font-size="23" font-weight="650">Edit and mesh</text>
+    <text x="414" y="225" fill="#b7c9dc" font-size="17">Saved C3D8 model, validated</text>
+    <text x="414" y="248" fill="#b7c9dc" font-size="17">forms and exact bricks</text>
+    <path d="M687 201h29m-10-9 10 9-10 9" fill="none" stroke="#73a7cf" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="726" y="128" width="315" height="145" rx="17" fill="#174039" stroke="#64d697" stroke-width="3"/>
+    <text x="748" y="162" fill="#9af0b4" font-size="19" font-weight="700">WEEK 3 · CURRENT</text>
+    <text x="748" y="195" fill="#f3f7fc" font-size="23" font-weight="650">Run and inspect</text>
+    <text x="748" y="225" fill="#c8e3d0" font-size="17">Solver process, VTK fields,</text>
+    <text x="748" y="248" fill="#c8e3d0" font-size="17">reports and software checks</text>
+    <path d="M1051 201h29m-10-9 10 9-10 9" fill="none" stroke="#73a7cf" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="1090" y="128" width="290" height="145" rx="17" fill="#242b3b" stroke="#737d96" stroke-width="2" stroke-dasharray="8 6"/>
+    <text x="1112" y="162" fill="#c5cbe0" font-size="19" font-weight="700">WEEK 4 · PLANNED</text>
+    <text x="1112" y="195" fill="#f3f7fc" font-size="23" font-weight="650">Review and refine</text>
+    <text x="1112" y="225" fill="#b7c9dc" font-size="17">User feedback, UI fixes,</text>
+    <text x="1112" y="248" fill="#b7c9dc" font-size="17">formal QA preparation</text>
+  </g>
+</svg>

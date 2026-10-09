@@ -1,0 +1,57 @@
+{
+  "nodes": 18,
+  "elements": 4,
+  "dofs": 54,
+  "stiffnessNonzeros": 1548,
+  "checks": {
+    "scaledResidualXYZ": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "symmetryRelative": 0.0,
+    "appliedForceXYZ": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "expectedForceXYZ": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "springReactionXYZ": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "forceBalanceRelative": 0.0,
+    "momentBalanceRelative": 0.0
+  },
+  "displacementMin": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "displacementMax": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "stressMin": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "stressMax": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ]
+}

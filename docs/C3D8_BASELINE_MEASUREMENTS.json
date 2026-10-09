@@ -1,0 +1,410 @@
+{
+  "status": "Passed",
+  "purpose": "Unmodified C3D8 software baseline; author/independent benchmark acceptance remains open",
+  "python": "3.12.2",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "dependencies": {
+    "certifi": "2026.7.22",
+    "charset-normalizer": "3.5.1",
+    "contourpy": "1.3.3",
+    "cycler": "0.12.1",
+    "fonttools": "4.65.0",
+    "idna": "3.19",
+    "kiwisolver": "1.5.1",
+    "matplotlib": "3.8.3",
+    "numpy": "1.26.3",
+    "packaging": "26.3",
+    "pandas": "2.2.3",
+    "pillow": "12.3.0",
+    "pip": "24.0",
+    "platformdirs": "4.11.8",
+    "pooch": "1.9.0",
+    "psutil": "5.9.8",
+    "pyparsing": "3.3.2",
+    "python-dateutil": "2.9.0.post0",
+    "pytz": "2026.3.post1",
+    "pyvista": "0.44.1",
+    "requests": "2.34.2",
+    "scipy": "1.13.0",
+    "scooby": "0.12.0",
+    "six": "1.17.0",
+    "typing_extensions": "4.16.0",
+    "tzdata": "2026.4",
+    "urllib3": "2.7.0",
+    "vtk": "9.3.1"
+  },
+  "memoryMeasurement": "20 ms polling; maximum observed sum of per-process peak working sets across owned launcher/solver tree (RSS fallback)",
+  "sourceHashes": {
+    "C3D8-slab.py": "2028c5283bfe0d7a005a94a96afd4ca6b5f4fd485f65cf221455d4e89f7fa8a6",
+    "C3D8local.py": "60dfae13f9653ecf95c2763adb4ee707b45f08f29ac0cc38da3936da86fa40e4",
+    "gf-val.py": "09cf29de4c8d70888b7ca9cc346e22c3b0e0c182e63a76a4de2182ebe50e723d"
+  },
+  "rankAndConventionAudit": "docs/C3D8_INTAKE_AUDIT.json",
+  "runs": [
+    {
+      "case": "single_brick",
+      "direct": {
+        "exitCode": 0,
+        "wallSeconds": 1.7794812999782152,
+        "peakWorkingSetBytes": 161878016
+      },
+      "capture": {
+        "exitCode": 0,
+        "wallSeconds": 1.7829072999884374,
+        "peakWorkingSetBytes": 161492992
+      },
+      "inputSha256": "8f5deac138a979535a6c022ad82e55c3e6cb7a6dab99a9225fc7824446e0440f",
+      "csvSha256": "f3561428ff02b9a2105e35a996ca780b8bc9e1cd343cb74ac0d61bd89f66da23",
+      "arraysSha256": "1ff1064da858ae041bfcc98b1af51c0391355b9adcd015932e41cfa36b94ac9f",
+      "summary": {
+        "nodes": 8,
+        "elements": 1,
+        "dofs": 24,
+        "stiffnessNonzeros": 576,
+        "checks": {
+          "scaledResidualXYZ": [
+            1.4795776616338288e-16,
+            1.9842155272852925e-16,
+            1.4033807941005496e-16
+          ],
+          "symmetryRelative": 0.0,
+          "appliedForceXYZ": [
+            0.0,
+            0.0,
+            38080.0
+          ],
+          "expectedForceXYZ": [
+            0.0,
+            0.0,
+            38080.0
+          ],
+          "springReactionXYZ": [
+            -1.9042545318370685e-12,
+            5.3717030823463574e-12,
+            -38079.999999999985
+          ],
+          "forceBalanceRelative": 4.104035555530189e-16,
+          "momentBalanceRelative": 4.834206327251384e-16
+        },
+        "displacementMin": [
+          -0.0008699324696440254,
+          -0.001267059011679163,
+          0.01599999999999994
+        ],
+        "displacementMax": [
+          0.0008699324696440564,
+          0.0012670590116791438,
+          0.018053491925789988
+        ],
+        "stressMin": [
+          -0.040252694178687695,
+          -0.06530252038342355,
+          -0.8139492027648119,
+          -6.137731048565776e-16,
+          -0.022437664605323603,
+          -0.011470936119447345
+        ],
+        "stressMax": [
+          0.004649687245647266,
+          -0.017210216709006576,
+          -0.7860507972351851,
+          6.880513786927239e-16,
+          0.02243766460532379,
+          0.011470936119446844
+        ]
+      }
+    },
+    {
+      "case": "asymmetric_overlap",
+      "direct": {
+        "exitCode": 0,
+        "wallSeconds": 2.1560860999743454,
+        "peakWorkingSetBytes": 161959936
+      },
+      "capture": {
+        "exitCode": 0,
+        "wallSeconds": 2.5940025000018068,
+        "peakWorkingSetBytes": 160264192
+      },
+      "inputSha256": "2c4721fc8aef889883e0777458be72debaccbee5ba06e5654352bf89779ab8aa",
+      "csvSha256": "e51326156830d6a1895bf51fc74e12c1dab360bb4fc62e5fcdc702b3b1beab26",
+      "arraysSha256": "4c73ab3460415e34bce4ee299ef14d218435aa42b15526a85ed001b3ef5b9df7",
+      "summary": {
+        "nodes": 18,
+        "elements": 4,
+        "dofs": 54,
+        "stiffnessNonzeros": 1548,
+        "checks": {
+          "scaledResidualXYZ": [
+            1.164456801545703e-16,
+            1.293433322144069e-16,
+            4.3222265779903946e-17
+          ],
+          "symmetryRelative": 0.0,
+          "appliedForceXYZ": [
+            0.0,
+            0.0,
+            65590.0
+          ],
+          "expectedForceXYZ": [
+            0.0,
+            0.0,
+            65590.0
+          ],
+          "springReactionXYZ": [
+            1.4779288903810084e-12,
+            4.703792910731863e-12,
+            -65590.0
+          ],
+          "forceBalanceRelative": 7.517169213424548e-17,
+          "momentBalanceRelative": 4.0223204599395213e-16
+        },
+        "displacementMin": [
+          -0.003290625717221298,
+          -0.0009267930220150987,
+          0.002643003061720021
+        ],
+        "displacementMax": [
+          0.002136271679426141,
+          0.0034864895018353855,
+          0.01919597071439682
+        ],
+        "stressMin": [
+          -0.3556976892970842,
+          -0.144570302305882,
+          -1.0057710978863934,
+          -0.04928274773043556,
+          -0.045631378482026794,
+          -0.015606180862379145
+        ],
+        "stressMax": [
+          0.19543902457453954,
+          0.09422796991848272,
+          0.04494179187142661,
+          0.0816220567518764,
+          0.03896085163306831,
+          0.05011921558371038
+        ]
+      }
+    },
+    {
+      "case": "analytical_compression",
+      "direct": {
+        "exitCode": 0,
+        "wallSeconds": 3.0653959999908693,
+        "peakWorkingSetBytes": 161652736
+      },
+      "capture": {
+        "exitCode": 0,
+        "wallSeconds": 2.733297800004948,
+        "peakWorkingSetBytes": 161251328
+      },
+      "inputSha256": "bcc4134e42afee6cfed6f897d38a211892c30d61cd6dce41d27e0c0b372970a2",
+      "csvSha256": "e4fe3ae71c8b4638974631df01c6f74310cdf248ac2b7625be7e0b3a128f04b7",
+      "arraysSha256": "16e55ab861cf58a9eb7bf6e3d6f2541ccd61a2d0785b629989c9d27daeff9c56",
+      "summary": {
+        "nodes": 18,
+        "elements": 4,
+        "dofs": 54,
+        "stiffnessNonzeros": 1548,
+        "checks": {
+          "scaledResidualXYZ": [
+            1.9123101382946326e-16,
+            1.6148396723376826e-16,
+            5.739803602821323e-17
+          ],
+          "symmetryRelative": 0.0,
+          "appliedForceXYZ": [
+            0.0,
+            0.0,
+            100800.0
+          ],
+          "expectedForceXYZ": [
+            0.0,
+            0.0,
+            100800.0
+          ],
+          "springReactionXYZ": [
+            -3.7747758287362603e-13,
+            -6.697127444821711e-12,
+            -100799.99999999978
+          ],
+          "forceBalanceRelative": 2.166485809404894e-15,
+          "momentBalanceRelative": 1.1152272151645484e-15
+        },
+        "displacementMin": [
+          -1.3010426069826053e-17,
+          -7.160295011229268e-19,
+          0.01599999999999993
+        ],
+        "displacementMax": [
+          1.3877787807814457e-17,
+          5.0306980803327406e-17,
+          0.02086666666666669
+        ],
+        "stressMin": [
+          -1.5918638956022467e-15,
+          -3.531401361809928e-16,
+          -0.8000000000000029,
+          -5.390033657499364e-16,
+          -7.318364664277155e-16,
+          -8.944667923005412e-16
+        ],
+        "stressMax": [
+          2.0204426367259283e-15,
+          2.4626877917885e-16,
+          -0.7999999999999945,
+          2.8979109007018335e-16,
+          4.87890977618477e-16,
+          6.505213034913027e-16
+        ]
+      }
+    },
+    {
+      "case": "zero_load",
+      "direct": {
+        "exitCode": 0,
+        "wallSeconds": 2.456257199984975,
+        "peakWorkingSetBytes": 161742848
+      },
+      "capture": {
+        "exitCode": 0,
+        "wallSeconds": 2.867804400040768,
+        "peakWorkingSetBytes": 160849920
+      },
+      "inputSha256": "c99eac69e727a5be8c1ccfdd9d668f0383a1dff416030a3e41bd11a84ace1e1b",
+      "csvSha256": "7dba91412d9f88f2e2f25d23536fdb89e70e864d98daf3238067624c031614ed",
+      "arraysSha256": "fcd9e8789735ce132b3509ccd7c5db9af5df7de27d49edf2a4496d1bda827c6b",
+      "summary": {
+        "nodes": 18,
+        "elements": 4,
+        "dofs": 54,
+        "stiffnessNonzeros": 1548,
+        "checks": {
+          "scaledResidualXYZ": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "symmetryRelative": 0.0,
+          "appliedForceXYZ": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "expectedForceXYZ": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "springReactionXYZ": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "forceBalanceRelative": 0.0,
+          "momentBalanceRelative": 0.0
+        },
+        "displacementMin": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "displacementMax": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "stressMin": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "stressMax": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "case": "supplied_21x21x5",
+      "direct": {
+        "exitCode": 0,
+        "wallSeconds": 12.241332000005059,
+        "peakWorkingSetBytes": 193822720
+      },
+      "capture": {
+        "exitCode": 0,
+        "wallSeconds": 19.786246399977244,
+        "peakWorkingSetBytes": 192970752
+      },
+      "inputSha256": "6b3ef423fe9c30d9b490e1485afc19aef72eb610886dc5c9bc0013c5d97f6841",
+      "csvSha256": "ff5858ada70de47d48b576828c19e0e184169706029bfaba8dcec9936d82d95c",
+      "arraysSha256": "6b61c72f6e3343d39206c985e13e5c40ba85837d5cc29d175d0d86989c42b355",
+      "summary": {
+        "nodes": 2205,
+        "elements": 1600,
+        "dofs": 6615,
+        "stiffnessNonzeros": 293463,
+        "checks": {
+          "scaledResidualXYZ": [
+            6.11367086152438e-16,
+            3.0818914588832013e-16,
+            4.985663010562759e-16
+          ],
+          "symmetryRelative": 0.0,
+          "appliedForceXYZ": [
+            0.0,
+            0.0,
+            9800000.0
+          ],
+          "expectedForceXYZ": [
+            0.0,
+            0.0,
+            9800000.0
+          ],
+          "springReactionXYZ": [
+            -2.1577761799562722e-10,
+            -3.2150637707673013e-10,
+            -9799999.999999987
+          ],
+          "forceBalanceRelative": 1.331047361312753e-15,
+          "momentBalanceRelative": 5.347317878751247e-16
+        },
+        "displacementMin": [
+          -0.006985490075109782,
+          -0.006985490075109714,
+          0.01530988210847088
+        ],
+        "displacementMax": [
+          0.006985490075110006,
+          0.006985490075109837,
+          0.02633614999439353
+        ],
+        "stressMin": [
+          -0.33505818485430355,
+          -0.33505818485430733,
+          -0.9610971024286787,
+          -0.011440691200422314,
+          -0.1306860301045065,
+          -0.13068603010450147
+        ],
+        "stressMax": [
+          0.011927322087117297,
+          0.011927322087119663,
+          -0.7670167912431153,
+          0.011440691200422862,
+          0.13068603010450675,
+          0.13068603010450686
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite name="femgui::IntegrationTests" timestamp="2026&#x002D;10&#x002D;01T22:03:44" hostname="StuxH4X" tests="62" failures="0" errors="0" skipped="4" time="8.133">
+  <properties>
+    <property name="QTestVersion" value="6.11.2"/>
+    <property name="QtVersion" value="6.11.2"/>
+    <property name="QtBuild" value="Qt 6.11.2 (x86_64&#x002D;little_endian&#x002D;llp64 shared (dynamic) release build; by MSVC 2022)"/>
+  </properties>
+  <testcase name="initTestCase" classname="femgui::IntegrationTests" time="0.032"/>
+  <testcase name="captureNativeWeek2Visuals" classname="femgui::IntegrationTests" time="0.000">
+    <skipped message="Evidence capture only"/>
+  </testcase>
+  <testcase name="meshEnumerationAndPrecision" classname="femgui::IntegrationTests" time="0.004"/>
+  <testcase name="invalidGeometryIsNotRendered" classname="femgui::IntegrationTests" time="0.000"/>
+  <testcase name="countsDoNotOverflow" classname="femgui::IntegrationTests" time="0.000"/>
+  <testcase name="loadsValidateAndSerialize" classname="femgui::IntegrationTests" time="0.000"/>
+  <testcase name="c3d8AdapterContractAndValidation" classname="femgui::IntegrationTests" time="0.000"/>
+  <testcase name="c3d8MeshMatchesSourceEnumeration" classname="femgui::IntegrationTests" time="0.008"/>
+  <testcase name="oversizedSolidReportsPreviewLimit" classname="femgui::IntegrationTests" time="0.000"/>
+  <testcase name="typedSolidUndoAndRevision" classname="femgui::IntegrationTests" time="0.002"/>
+  <testcase name="zeroFoundationCannotRun" classname="femgui::IntegrationTests" time="0.000"/>
+  <testcase name="projectRevisionAndRunRoundTrip" classname="femgui::IntegrationTests" time="0.039"/>
+  <testcase name="schemaTwoSolidRoundTripAndDispatch" classname="femgui::IntegrationTests" time="0.060"/>
+  <testcase name="schemaOnePlateMigratesWithoutReinterpretation" classname="femgui::IntegrationTests" time="0.044"/>
+  <testcase name="solidProjectOpensEditsAndInspects" classname="femgui::IntegrationTests" time="0.073">
+    <system-err>
+      <![CDATA[QFontDatabase: Cannot find font directory D:/Softwares/QT/6.11.2/msvc2022_64/lib/fonts.
+Note that Qt no longer ships fonts. Deploy some (from https://dejavu-fonts.github.io/ for example) or switch to fontconfig.]]>
+      <![CDATA[QOpenGLWidget is not supported on this platform.]]>
+      <![CDATA[QOpenGLWidget is not supported on this platform.]]>
+      <![CDATA[QOpenGLWidget is not supported on this platform.]]>
+    </system-err>
+  </testcase>
+  <testcase name="malformedProjectIsTransactional(units)" classname="femgui::IntegrationTests" time="0.029"/>
+  <testcase name="malformedProjectIsTransactional(backend)" classname="femgui::IntegrationTests" time="0.020"/>
+  <testcase name="malformedProjectIsTransactional(slabNumber)" classname="femgui::IntegrationTests" time="0.027"/>
+  <testcase name="malformedProjectIsTransactional(patchNumber)" classname="femgui::IntegrationTests" time="0.028"/>
+  <testcase name="malformedProjectIsTransactional(coordinates)" classname="femgui::IntegrationTests" time="0.031"/>
+  <testcase name="malformedProjectIsTransactional(flag)" classname="femgui::IntegrationTests" time="0.029"/>
+  <testcase name="malformedProjectIsTransactional(duplicateId)" classname="femgui::IntegrationTests" time="0.032"/>
+  <testcase name="malformedProjectIsTransactional(schema)" classname="femgui::IntegrationTests" time="0.029"/>
+  <testcase name="malformedProjectIsTransactional(historyType)" classname="femgui::IntegrationTests" time="0.030"/>
+  <testcase name="fullFixtureAndExtrema" classname="femgui::IntegrationTests" time="0.001"/>
+  <testcase name="incompleteAndInconsistentResults(missing)" classname="femgui::IntegrationTests" time="0.014"/>
+  <testcase name="incompleteAndInconsistentResults(vector)" classname="femgui::IntegrationTests" time="0.003"/>
+  <testcase name="incompleteAndInconsistentResults(nan)" classname="femgui::IntegrationTests" time="0.005"/>
+  <testcase name="incompleteAndInconsistentResults(geometry)" classname="femgui::IntegrationTests" time="0.003"/>
+  <testcase name="incompleteAndInconsistentResults(connectivity)" classname="femgui::IntegrationTests" time="0.003"/>
+  <testcase name="incompleteAndInconsistentResults(ids)" classname="femgui::IntegrationTests" time="0.003"/>
+  <testcase name="silentProcessAndCancel" classname="femgui::IntegrationTests" time="3.062"/>
+  <testcase name="processFailuresAndUnicode(exit7)" classname="femgui::IntegrationTests" time="0.124"/>
+  <testcase name="processFailuresAndUnicode(missing)" classname="femgui::IntegrationTests" time="0.141"/>
+  <testcase name="processFailuresAndUnicode(unicode)" classname="femgui::IntegrationTests" time="0.187"/>
+  <testcase name="processFailuresAndUnicode(success)" classname="femgui::IntegrationTests" time="0.124"/>
+  <testcase name="processFailuresAndUnicode(failedStart)" classname="femgui::IntegrationTests" time="0.003"/>
+  <testcase name="asyncBackendCheck" classname="femgui::IntegrationTests" time="1.168"/>
+  <testcase name="bundledSolverWorkflow" classname="femgui::IntegrationTests" time="0.000">
+    <skipped message="Set FEM_TEST_BUNDLED_SOLVER to test a frozen package."/>
+  </testcase>
+  <testcase name="productionProtocol(success)" classname="femgui::IntegrationTests" time="0.143"/>
+  <testcase name="productionProtocol(malformed)" classname="femgui::IntegrationTests" time="0.140"/>
+  <testcase name="productionProtocol(error)" classname="femgui::IntegrationTests" time="0.141"/>
+  <testcase name="productionProtocol(exit7)" classname="femgui::IntegrationTests" time="0.125"/>
+  <testcase name="productionProtocol(wrong_input)" classname="femgui::IntegrationTests" time="0.117"/>
+  <testcase name="productionProtocol(wrong_result)" classname="femgui::IntegrationTests" time="0.181"/>
+  <testcase name="productionProtocol(missing_manifest)" classname="femgui::IntegrationTests" time="0.141"/>
+  <testcase name="productionProtocol(missing_completion)" classname="femgui::IntegrationTests" time="0.140"/>
+  <testcase name="productionProtocol(duplicate_completion)" classname="femgui::IntegrationTests" time="0.140"/>
+  <testcase name="productionProtocol(hang)" classname="femgui::IntegrationTests" time="0.186"/>
+  <testcase name="realRunMatchesReferenceAndReopens" classname="femgui::IntegrationTests" time="0.968"/>
+  <testcase name="deformationHighlightAndResultReset" classname="femgui::IntegrationTests" time="0.010">
+    <system-err>
+      <![CDATA[QOpenGLWidget is not supported on this platform.]]>
+    </system-err>
+  </testcase>
+  <testcase name="staleSelectionUsesRunGeometry" classname="femgui::IntegrationTests" time="0.033">
+    <system-err>
+      <![CDATA[QOpenGLWidget is not supported on this platform.]]>
+      <![CDATA[QOpenGLWidget is not supported on this platform.]]>
+      <![CDATA[QOpenGLWidget is not supported on this platform.]]>
+    </system-err>
+  </testcase>
+  <testcase name="invalidTableTextDoesNotBecomeZero" classname="femgui::IntegrationTests" time="0.037">
+    <system-err>
+      <![CDATA[QOpenGLWidget is not supported on this platform.]]>
+      <![CDATA[QOpenGLWidget is not supported on this platform.]]>
+      <![CDATA[QOpenGLWidget is not supported on this platform.]]>
+    </system-err>
+  </testcase>
+  <testcase name="preciseEditorsAndUnchangedApply" classname="femgui::IntegrationTests" time="0.032">
+    <system-err>
+      <![CDATA[QOpenGLWidget is not supported on this platform.]]>
+      <![CDATA[QOpenGLWidget is not supported on this platform.]]>
+      <![CDATA[QOpenGLWidget is not supported on this platform.]]>
+    </system-err>
+  </testcase>
+  <testcase name="undoRevisionBranchAndDisplayEdits" classname="femgui::IntegrationTests" time="0.000"/>
+  <testcase name="newProjectSaveOpensSaveAs" classname="femgui::IntegrationTests" time="0.157">
+    <system-err>
+      <![CDATA[QOpenGLWidget is not supported on this platform.]]>
+      <![CDATA[QOpenGLWidget is not supported on this platform.]]>
+      <![CDATA[QOpenGLWidget is not supported on this platform.]]>
+      <![CDATA[This plugin does not support propagateSizeHints()]]>
+    </system-err>
+  </testcase>
+  <testcase name="patchDialogRejectsInvalidDraft" classname="femgui::IntegrationTests" time="0.001"/>
+  <testcase name="drawnPatchApplyIsOneUndoableEdit" classname="femgui::IntegrationTests" time="0.069">
+    <system-err>
+      <![CDATA[QOpenGLWidget is not supported on this platform.]]>
+      <![CDATA[QOpenGLWidget is not supported on this platform.]]>
+      <![CDATA[QOpenGLWidget is not supported on this platform.]]>
+      <![CDATA[This plugin does not support propagateSizeHints()]]>
+    </system-err>
+  </testcase>
+  <testcase name="nodalCsvAndDerivedExtrema" classname="femgui::IntegrationTests" time="0.009"/>
+  <testcase name="nativeRectangleDrawing" classname="femgui::IntegrationTests" time="0.000">
+    <skipped message="Requires Windows desktop rendering."/>
+  </testcase>
+  <testcase name="nativeRenderingAndPicking" classname="femgui::IntegrationTests" time="0.000">
+    <skipped message="Native rendering is tested separately with the Windows platform."/>
+  </testcase>
+  <testcase name="cleanupTestCase" classname="femgui::IntegrationTests" time="0.000"/>
+</testsuite>

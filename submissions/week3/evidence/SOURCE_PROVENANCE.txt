@@ -1,0 +1,7 @@
+Week 3 source verification
+
+SOURCE_SHA256.csv records the relative path and SHA-256 of each included code file.
+The repository root and Week 3 copy use the same application, tests, build scripts,
+solver source and technical documentation. Their READMEs serve different audiences.
+Received C3D8 reference files and numerical fixtures retain their recorded hashes.
+Build and test commands and results are documented in BUILD_AND_TEST.md.

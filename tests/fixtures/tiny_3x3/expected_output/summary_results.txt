@@ -1,0 +1,25 @@
+SUMMARY OF RESULTS
+============================================================
+
+Number of elements           : 4
+Type of loading              : Rectangular
+Total load (N)               : 175000.000000
+Load area (mm^2)             : 250000.000000
+
+MAXIMUM DISPLACEMENT
+------------------------------------------------------------
+Max displacement value (w)   : 0.209092 mm
+Max |displacement|           : 0.209092 mm
+Location (x, y)              : (500.0, 500.0) mm
+
+MAXIMUM SIGMA XX AT TOP LAYER
+------------------------------------------------------------
+Max sigma_xx top             : 0.368868 MPa
+Max |sigma_xx top|           : 2.298976 MPa
+Location (x, y)              : (500.0, 500.0) mm
+
+MAXIMUM SIGMA XX AT BOTTOM LAYER
+------------------------------------------------------------
+Max sigma_xx bottom          : 2.298976 MPa
+Max |sigma_xx bottom|        : 2.298976 MPa
+Location (x, y)              : (500.0, 500.0) mm

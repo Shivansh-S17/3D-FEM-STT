@@ -1,0 +1,6 @@
+numpy==1.26.3
+scipy==1.13.0
+matplotlib==3.8.3
+pyinstaller==6.10.0
+# Used by the performance qualification harness only.
+psutil==5.9.8
